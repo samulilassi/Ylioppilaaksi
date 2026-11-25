@@ -1,0 +1,325 @@
+{
+  "kurssi": "MAA3",
+  "kysymykset": [
+    {
+      "id": "maa3-harj-01",
+      "numero": "1",
+      "aihe": "Pythagoraan lause",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Suorakulmaisen kolmion kateetit ovat 6 cm ja 8 cm. <b>Kuinka pitkä on hypotenuusa?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 10,
+        "toleranssi": 0.01,
+        "yksikko": "cm",
+        "esimerkki": "12"
+      },
+      "ratkaisu": [
+        "c<sup>2</sup> = 6<sup>2</sup> + 8<sup>2</sup> = 100.",
+        "c = <b>10 cm</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-02",
+      "numero": "2",
+      "aihe": "Ympyrän pinta-ala",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "<b>Laske</b> 5,0 cm säteisen ympyrän pinta-ala."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 78.539816,
+        "toleranssi": 0.1,
+        "desimaalit": 2,
+        "yksikko": "cm²",
+        "esimerkki": "50,27"
+      },
+      "ratkaisu": [
+        "A = πr<sup>2</sup> = π · 25 ≈ <b>78,54 cm²</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-03",
+      "numero": "3",
+      "aihe": "Kaaren pituus",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Ympyrän säde on 10 cm. <b>Kuinka pitkä on 72°:n keskuskulmaa vastaava kaari?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 12.566371,
+        "toleranssi": 0.05,
+        "desimaalit": 2,
+        "yksikko": "cm",
+        "esimerkki": "10,5"
+      },
+      "ratkaisu": [
+        "b = (α / 360°) · 2πr = (72 / 360) · 20π = 4π.",
+        "b ≈ <b>12,57 cm</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-04",
+      "numero": "4",
+      "aihe": "Yhdenmuotoisuus",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Kolmiot ovat yhdenmuotoiset, mittakaava 1 : 3. Pienemmän kolmion ala on 12 cm². <b>Mikä on suuremman kolmion ala?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 108,
+        "toleranssi": 0.01,
+        "yksikko": "cm²",
+        "esimerkki": "36"
+      },
+      "ratkaisu": [
+        "Pinta-alojen suhde on mittakaavan neliö: 3<sup>2</sup> = 9.",
+        "12 cm² · 9 = <b>108 cm²</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-05",
+      "numero": "5",
+      "aihe": "Kolmion kulmat",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Kolmion kulmien suhde on 2 : 3 : 4. <b>Kuinka suuri on kolmion suurin kulma (asteina)?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 80,
+        "toleranssi": 0.01,
+        "yksikko": "°",
+        "esimerkki": "60"
+      },
+      "ratkaisu": [
+        "Kulmat 2k, 3k ja 4k; summa 9k = 180° ⇒ k = 20°.",
+        "Suurin kulma 4k = <b>80°</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-06",
+      "numero": "6",
+      "aihe": "Sinilause",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Kolmiossa ABC sivu a = 7,0, ∠A = 40° ja ∠B = 65°. <b>Laske sivun b pituus.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 9.869752,
+        "toleranssi": 0.02,
+        "desimaalit": 2,
+        "esimerkki": "8,25"
+      },
+      "ratkaisu": [
+        "Sinilause: b / sin B = a / sin A.",
+        "b = 7,0 · sin 65° / sin 40° ≈ <b>9,87</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-07",
+      "numero": "7",
+      "aihe": "Kosinilause",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Kolmion kaksi sivua ovat 5 ja 7, ja niiden välinen kulma on 60°. <b>Laske kolmannen sivun pituus.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 6.244998,
+        "toleranssi": 0.01,
+        "desimaalit": 2,
+        "esimerkki": "6,00"
+      },
+      "ratkaisu": [
+        "c<sup>2</sup> = 5<sup>2</sup> + 7<sup>2</sup> − 2·5·7·cos 60° = 25 + 49 − 35 = 39.",
+        "c = √39 ≈ <b>6,24</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-08",
+      "numero": "8",
+      "aihe": "Kartion tilavuus",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Suoran ympyräkartion pohjan säde on 3 cm ja korkeus 4 cm. <b>Laske kartion tilavuus.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 37.699112,
+        "toleranssi": 0.05,
+        "desimaalit": 2,
+        "yksikko": "cm³",
+        "esimerkki": "30,00"
+      },
+      "ratkaisu": [
+        "V = ⅓πr<sup>2</sup>h = ⅓ · π · 9 · 4 = 12π.",
+        "V ≈ <b>37,70 cm³</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-09",
+      "numero": "9",
+      "aihe": "Pallon pinta-ala",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "<b>Laske</b> 6 cm säteisen pallon pinta-ala."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 452.389342,
+        "toleranssi": 0.1,
+        "desimaalit": 2,
+        "yksikko": "cm²",
+        "esimerkki": "400,00"
+      },
+      "ratkaisu": [
+        "A = 4πr<sup>2</sup> = 4π · 36 = 144π ≈ <b>452,39 cm²</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-10",
+      "numero": "10",
+      "aihe": "Lieriö",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Lieriön muotoiseen purkkiin mahtuu 1,0 litraa ja pohjan säde on 5,0 cm. <b>Kuinka korkea purkki on?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 12.732395,
+        "toleranssi": 0.05,
+        "desimaalit": 2,
+        "yksikko": "cm",
+        "esimerkki": "10,0"
+      },
+      "ratkaisu": [
+        "1,0 l = 1 000 cm³. V = πr²h ⇒ h = V / (πr²).",
+        "h = 1 000 / (25π) ≈ <b>12,73 cm</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-11",
+      "numero": "11",
+      "aihe": "Kehäkulmalause",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Ympyrän keskuskulma on 110°. <b>Kuinka suuri on samaa kaarta vastaava kehäkulma?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 55,
+        "toleranssi": 0.01,
+        "yksikko": "°",
+        "esimerkki": "90"
+      },
+      "ratkaisu": [
+        "Kehäkulma on puolet samaa kaarta vastaavasta keskuskulmasta.",
+        "110° / 2 = <b>55°</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-12",
+      "numero": "12",
+      "aihe": "Säännöllinen kuusikulmio",
+      "pisteet": 12,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Säännöllisen kuusikulmion sivun pituus on 4. <b>Laske kuusikulmion pinta-ala.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 41.569219,
+        "toleranssi": 0.05,
+        "desimaalit": 2,
+        "esimerkki": "40,00"
+      },
+      "ratkaisu": [
+        "Kuusikulmio koostuu kuudesta tasasivuisesta kolmiosta, joiden sivu on 4.",
+        "Yhden ala: (√3/4) · 16 = 4√3. Kuusi kolmiota: 24√3 ≈ <b>41,57</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-13",
+      "numero": "13",
+      "aihe": "Pyramidi",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "Neliöpohjaisen pyramidin pohjan sivu on 6 ja korkeus 4. <b>Laske pyramidin tilavuus.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 48,
+        "toleranssi": 0.01,
+        "esimerkki": "72"
+      },
+      "ratkaisu": [
+        "V = ⅓ · A<sub>pohja</sub> · h = ⅓ · 36 · 4 = <b>48</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-14",
+      "numero": "14",
+      "aihe": "Varjo ja yhdenmuotoisuus",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "1,8 m pitkän ihmisen varjo on 2,4 m pitkä. Samaan aikaan puun varjo on 12 m.",
+        "<b>Kuinka korkea puu on?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 9,
+        "toleranssi": 0.01,
+        "yksikko": "m",
+        "esimerkki": "7,5"
+      },
+      "ratkaisu": [
+        "Auringonsäteet muodostavat yhdenmuotoiset kolmiot: h / 12 = 1,8 / 2,4.",
+        "h = 12 · 0,75 = <b>9,0 m</b>."
+      ]
+    },
+    {
+      "id": "maa3-harj-15",
+      "numero": "15",
+      "aihe": "Yhtenevyys ja todistaminen",
+      "pisteet": 6,
+      "muistilista": "MAA3",
+      "teksti": [
+        "<b>Mikä tieto riittää osoittamaan kaksi kolmiota yhteneviksi?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "valinta",
+        "vaihtoehdot": [
+          "Kolmioiden kaikki kolme kulmaa ovat yhtä suuret",
+          "Kaksi sivua ja niiden välinen kulma ovat yhtä suuret (SKS)",
+          "Kolmioiden kaksi sivua ovat yhtä pitkät",
+          "Kolmioiden pinta-alat ovat yhtä suuret"
+        ],
+        "oikea": 1
+      },
+      "ratkaisu": [
+        "Yhtäsuuret kulmat (KKK) takaavat vain yhdenmuotoisuuden, eivät yhtenevyyttä.",
+        "Yhtenevyyslauseet: <b>SKS</b>, KSK, SSS (ja SSK tietyin ehdoin)."
+      ]
+    }
+  ]
+}

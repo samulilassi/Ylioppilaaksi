@@ -1,0 +1,310 @@
+{
+  "kurssi": "MAA12",
+  "kysymykset": [
+    {
+      "id": "maa12-harj-01",
+      "numero": "1",
+      "aihe": "Raja-arvo",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "<b>Laske</b> raja-arvo lim<sub>x→2</sub> (x<sup>2</sup> − 4) / (x − 2)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 4,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Sievennetään: (x<sup>2</sup> − 4) / (x − 2) = x + 2, kun x ≠ 2.",
+        "Raja-arvo 2 + 2 = <b>4</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-02",
+      "numero": "2",
+      "aihe": "Raja-arvo äärettömyydessä",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "<b>Laske</b> lim<sub>x→∞</sub> (3x<sup>2</sup> + 1) / (x<sup>2</sup> − 5)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 3,
+        "toleranssi": 0.01,
+        "esimerkki": "1"
+      },
+      "ratkaisu": [
+        "Jaetaan osoittaja ja nimittäjä x<sup>2</sup>:lla: (3 + 1/x<sup>2</sup>) / (1 − 5/x<sup>2</sup>) → 3/1.",
+        "Raja-arvo <b>3</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-03",
+      "numero": "3",
+      "aihe": "Epäoleellinen integraali",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "<b>Laske</b> ∫<sub>1</sub><sup>∞</sup> (1/x³) dx."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.5,
+        "toleranssi": 0.01,
+        "esimerkki": "1"
+      },
+      "ratkaisu": [
+        "Integraalifunktio −1/(2x<sup>2</sup>).",
+        "lim<sub>b→∞</sub> (−1/(2b²) + ½) = <b>½</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-04",
+      "numero": "4",
+      "aihe": "Tiheysfunktio",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "Funktio f(x) = kx välillä [0, 2] (muualla 0) on tiheysfunktio. <b>Määritä vakio k.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.5,
+        "toleranssi": 0.01,
+        "esimerkki": "1"
+      },
+      "ratkaisu": [
+        "Kokonaistodennäköisyys 1: ∫<sub>0</sub><sup>2</sup> kx dx = 2k = 1.",
+        "k = <b>½</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-05",
+      "numero": "5",
+      "aihe": "Todennäköisyys tiheysfunktiosta",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "Satunnaismuuttujan X tiheysfunktio on f(x) = x/2 välillä [0, 2]. <b>Laske P(X < 1).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.25,
+        "toleranssi": 0.01,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "P(X < 1) = ∫<sub>0</sub><sup>1</sup> x/2 dx = [x<sup>2</sup>/4]<sub>0</sub><sup>1</sup> = <b>0,25</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-06",
+      "numero": "6",
+      "aihe": "Odotusarvo",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "Satunnaismuuttujan X tiheysfunktio on f(x) = x/2 välillä [0, 2]. <b>Laske odotusarvo E(X)</b> (kahden desimaalin tarkkuudella)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1.333333,
+        "toleranssi": 0.01,
+        "desimaalit": 2,
+        "esimerkki": "1,00"
+      },
+      "ratkaisu": [
+        "E(X) = ∫<sub>0</sub><sup>2</sup> x · x/2 dx = [x<sup>3</sup>/6]<sub>0</sub><sup>2</sup> = 8/6 ≈ <b>1,33</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-07",
+      "numero": "7",
+      "aihe": "Tasajakauma",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "X on tasajakautunut välillä [0, 10]. <b>Laske P(2 < X < 5).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.3,
+        "toleranssi": 0.01,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "Tiheysfunktio 1/10 välillä.",
+        "P = (5 − 2) / 10 = <b>0,3</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-08",
+      "numero": "8",
+      "aihe": "Eksponenttijakauma",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "Laitteen elinikä (vuosina) noudattaa eksponenttijakaumaa parametrilla λ = 0,5. <b>Millä todennäköisyydellä laite kestää yli 2 vuotta?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.367879,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "P(X > t) = e<sup>−λt</sup>.",
+        "P(X > 2) = e<sup>−1</sup> ≈ <b>0,368</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-09",
+      "numero": "9",
+      "aihe": "Normaalijakauma",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "Älykkyysosamäärä noudattaa normaalijakaumaa N(100, 15). <b>Millä todennäköisyydellä satunnainen henkilö saa alle 130?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.97725,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,9"
+      },
+      "ratkaisu": [
+        "Standardoidaan: z = (130 − 100) / 15 = 2.",
+        "Φ(2) ≈ <b>0,977</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-10",
+      "numero": "10",
+      "aihe": "Normaalijakauma välillä",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "X ~ N(100, 15). <b>Laske P(85 < X < 115).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.682689,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "z-arvot −1 ja 1.",
+        "P = Φ(1) − Φ(−1) ≈ <b>0,683</b> (noin 68 %)."
+      ]
+    },
+    {
+      "id": "maa12-harj-11",
+      "numero": "11",
+      "aihe": "Jatkuvuus",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "Funktio on f(x) = x<sup>2</sup> + a, kun x < 1, ja f(x) = 2x, kun x ≥ 1.",
+        "<b>Millä vakion a arvolla f on jatkuva?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Raja-arvot kohdassa x = 1 yhtäsuuriksi: 1 + a = 2.",
+        "a = <b>1</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-12",
+      "numero": "12",
+      "aihe": "Osittaisintegrointi",
+      "pisteet": 12,
+      "muistilista": "MAA12",
+      "teksti": [
+        "<b>Laske</b> ∫<sub>0</sub><sup>1</sup> x · e<sup>x</sup> dx."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Osittaisintegrointi: ∫ x e<sup>x</sup> dx = x e<sup>x</sup> − e<sup>x</sup> + C.",
+        "[x e<sup>x</sup> − e<sup>x</sup>]<sub>0</sub><sup>1</sup> = 0 − (−1) = <b>1</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-13",
+      "numero": "13",
+      "aihe": "Sijoitusmenettely",
+      "pisteet": 12,
+      "muistilista": "MAA12",
+      "teksti": [
+        "<b>Laske</b> ∫<sub>0</sub><sup>1</sup> 2x(x<sup>2</sup> + 1)<sup>3</sup> dx."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 3.75,
+        "toleranssi": 0.01,
+        "esimerkki": "4"
+      },
+      "ratkaisu": [
+        "Sijoitus u = x<sup>2</sup> + 1, du = 2x dx. Rajat: u = 1 … 2.",
+        "∫<sub>1</sub><sup>2</sup> u³ du = [u<sup>4</sup>/4]<sub>1</sub><sup>2</sup> = (16 − 1)/4 = <b>3,75</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-14",
+      "numero": "14",
+      "aihe": "Normaalijakauman fraktiili",
+      "pisteet": 12,
+      "muistilista": "MAA12",
+      "teksti": [
+        "Kokeen pisteet noudattavat normaalijakaumaa N(60, 10). <b>Mikä pistemäärä vaaditaan, jotta kuuluu parhaaseen 10 %:iin?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 72.815516,
+        "toleranssi": 0.2,
+        "desimaalit": 1,
+        "esimerkki": "70"
+      },
+      "ratkaisu": [
+        "Etsitään z, jolle Φ(z) = 0,90: z ≈ 1,282.",
+        "x = 60 + 1,282 · 10 ≈ <b>72,8</b>."
+      ]
+    },
+    {
+      "id": "maa12-harj-15",
+      "numero": "15",
+      "aihe": "Epäoleellinen integraali ja tiheys",
+      "pisteet": 6,
+      "muistilista": "MAA12",
+      "teksti": [
+        "Funktio f(x) = 2e<sup>−2x</sup>, x ≥ 0, on tiheysfunktio. <b>Laske P(X ≤ 1)</b> (kolmen desimaalin tarkkuudella)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.864665,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "P(X ≤ 1) = ∫<sub>0</sub><sup>1</sup> 2e<sup>−2x</sup> dx = [−e<sup>−2x</sup>]<sub>0</sub><sup>1</sup> = 1 − e<sup>−2</sup>.",
+        "P ≈ <b>0,865</b>."
+      ]
+    }
+  ]
+}

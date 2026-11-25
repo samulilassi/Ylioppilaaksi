@@ -1,0 +1,68 @@
+[
+  {
+    "id": "MAA2",
+    "nimi": "Funktiot ja yhtälöt 1",
+    "kuvaus": "Polynomi-, rationaali- ja juurifunktiot, yhtälö- ja epäyhtälöratkaisut.",
+    "tyyppi": "pakollinen"
+  },
+  {
+    "id": "MAA3",
+    "nimi": "Geometria",
+    "kuvaus": "Taso- ja avaruusgeometria, geometriset lauseet ja todistaminen.",
+    "tyyppi": "pakollinen"
+  },
+  {
+    "id": "MAA4",
+    "nimi": "Analyyttinen geometria ja vektorit",
+    "kuvaus": "Koordinaatisto, käyrät, vektorilaskenta ja geometrian sovellukset.",
+    "tyyppi": "pakollinen"
+  },
+  {
+    "id": "MAA5",
+    "nimi": "Funktiot ja yhtälöt 2",
+    "kuvaus": "Trigonometriset funktiot, eksponentti- ja logaritmifunktiot sekä lukujonot ja summat.",
+    "tyyppi": "pakollinen"
+  },
+  {
+    "id": "MAA6",
+    "nimi": "Derivaatta",
+    "kuvaus": "Muutosnopeus, derivaatan laskusäännöt, funktion ominaisuudet ja ääriarvotehtävät.",
+    "tyyppi": "pakollinen"
+  },
+  {
+    "id": "MAA7",
+    "nimi": "Integraalilaskenta",
+    "kuvaus": "Määrätty ja määräämätön integraali, pinta-alat ja tilavuudet.",
+    "tyyppi": "pakollinen"
+  },
+  {
+    "id": "MAA8",
+    "nimi": "Tilastot ja todennäköisyys",
+    "kuvaus": "Todennäköisyyslaskenta, jakaumat ja tilastolliset tunnusluvut.",
+    "tyyppi": "pakollinen"
+  },
+  {
+    "id": "MAA9",
+    "nimi": "Talousmatematiikka",
+    "kuvaus": "Korot, lainat, sijoittaminen ja talouden mallintaminen.",
+    "tyyppi": "pakollinen"
+  },
+  {
+    "id": "MAA10",
+    "nimi": "3D-geometria",
+    "kuvaus": "Avaruuden vektorit, suorat ja tasot.",
+    "tyyppi": "valinnainen"
+  },
+  {
+    "id": "MAA11",
+    "nimi": "Algoritmit ja lukuteoria",
+    "kuvaus": "Jaollisuus, kongruenssit, algoritminen ajattelu ja ohjelmoinnin perusteet.",
+    "tyyppi": "valinnainen"
+  },
+  {
+    "id": "MAA12",
+    "nimi": "Analyysi ja jatkuva jakauma",
+    "kuvaus": "Syventävä analyysi sekä jatkuvat todennäköisyysjakaumat.",
+    "tyyppi": "valinnainen"
+  }
+]

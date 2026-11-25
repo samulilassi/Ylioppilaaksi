@@ -1,0 +1,318 @@
+{
+  "kurssi": "MAA6",
+  "kysymykset": [
+    {
+      "id": "maa-harj-derivaatta-1",
+      "numero": "1",
+      "aihe": "Derivaatta · Paikallinen maksimi",
+      "pisteet": 12,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Tarkastellaan funktiota f(x) = x<sup>3</sup> − 6x<sup>2</sup> + 9x + 1.",
+        "<b>Määritä funktion paikallisen maksimin arvo.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 5,
+        "toleranssi": 0.001,
+        "esimerkki": "3"
+      },
+      "ratkaisu": [
+        "Derivoidaan: f'(x) = 3x<sup>2</sup> − 12x + 9 = 3(x − 1)(x − 3).",
+        "Derivaatan nollakohdat ovat x = 1 ja x = 3.",
+        "Merkkikaavio: f' > 0, kun x < 1; f' < 0, kun 1 < x < 3; f' > 0, kun x > 3. Maksimi on siis kohdassa x = 1.",
+        "f(1) = 1 − 6 + 9 + 1 = <b>5</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-02",
+      "numero": "2",
+      "aihe": "Polynomin derivaatta",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Olkoon f(x) = 3x<sup>4</sup> − 2x<sup>2</sup> + 5. <b>Laske f'(1).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 8,
+        "toleranssi": 0.01,
+        "esimerkki": "4"
+      },
+      "ratkaisu": [
+        "f'(x) = 12x<sup>3</sup> − 4x.",
+        "f'(1) = 12 − 4 = <b>8</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-03",
+      "numero": "3",
+      "aihe": "Yhdistetyn funktion derivaatta",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Olkoon f(x) = (2x + 1)<sup>3</sup>. <b>Laske f'(0).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 6,
+        "toleranssi": 0.01,
+        "esimerkki": "3"
+      },
+      "ratkaisu": [
+        "Ketjusääntö: f'(x) = 3(2x + 1)<sup>2</sup> · 2.",
+        "f'(0) = 3 · 1 · 2 = <b>6</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-04",
+      "numero": "4",
+      "aihe": "Tulon derivaatta",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Olkoon f(x) = x · e<sup>x</sup>. <b>Laske f'(0).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Tulon derivaatta: f'(x) = e<sup>x</sup> + x·e<sup>x</sup>.",
+        "f'(0) = 1 + 0 = <b>1</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-05",
+      "numero": "5",
+      "aihe": "Logaritmifunktion derivaatta",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Olkoon f(x) = ln(x<sup>2</sup> + 1). <b>Laske f'(1).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "f'(x) = 2x / (x<sup>2</sup> + 1).",
+        "f'(1) = 2 / 2 = <b>1</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-06",
+      "numero": "6",
+      "aihe": "Trigonometrisen funktion derivaatta",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Olkoon f(x) = sin(2x). <b>Laske f'(0).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 2,
+        "toleranssi": 0.01,
+        "esimerkki": "1"
+      },
+      "ratkaisu": [
+        "f'(x) = 2 cos(2x).",
+        "f'(0) = 2 · 1 = <b>2</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-07",
+      "numero": "7",
+      "aihe": "Tangentin kulmakerroin",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "<b>Laske</b> käyrän y = √x tangentin kulmakerroin kohdassa x = 4."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.25,
+        "toleranssi": 0.01,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "y' = 1 / (2√x).",
+        "y'(4) = 1 / (2 · 2) = <b>0,25</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-08",
+      "numero": "8",
+      "aihe": "Tangentin yhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Käyrälle y = x<sup>2</sup> piirretään tangentti kohtaan x = 3. <b>Missä kohdassa tangentti leikkaa y-akselin?</b> (Anna y-koordinaatti.)"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": -9,
+        "toleranssi": 0.01,
+        "esimerkki": "−3"
+      },
+      "ratkaisu": [
+        "y' = 2x ⇒ k = 6. Sivuamispiste (3, 9).",
+        "Tangentti: y − 9 = 6(x − 3) ⇒ y = 6x − 9.",
+        "Leikkaa y-akselin kohdassa y = <b>−9</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-09",
+      "numero": "9",
+      "aihe": "Osamäärän derivaatta",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Olkoon f(x) = (x + 1) / (x − 1). <b>Laske f'(2).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": -2,
+        "toleranssi": 0.01,
+        "esimerkki": "1"
+      },
+      "ratkaisu": [
+        "f'(x) = ((x − 1) − (x + 1)) / (x − 1)<sup>2</sup> = −2 / (x − 1)<sup>2</sup>.",
+        "f'(2) = −2 / 1 = <b>−2</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-10",
+      "numero": "10",
+      "aihe": "Muutosnopeus",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Kappaleen paikka on s(t) = t<sup>3</sup> − 6t<sup>2</sup> + 9t (metriä, t sekunteina). <b>Mikä on kappaleen nopeus hetkellä t = 4 s?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 9,
+        "toleranssi": 0.01,
+        "yksikko": "m/s",
+        "esimerkki": "5"
+      },
+      "ratkaisu": [
+        "Nopeus on paikan derivaatta: v(t) = 3t<sup>2</sup> − 12t + 9.",
+        "v(4) = 48 − 48 + 9 = <b>9 m/s</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-11",
+      "numero": "11",
+      "aihe": "Ääriarvotehtävä: suorakulmio",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "Suorakulmion piiri on 20 cm. <b>Mikä on suurin mahdollinen pinta-ala?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 25,
+        "toleranssi": 0.01,
+        "yksikko": "cm²",
+        "esimerkki": "24"
+      },
+      "ratkaisu": [
+        "Sivut x ja 10 − x: A(x) = 10x − x<sup>2</sup>.",
+        "A'(x) = 10 − 2x = 0 ⇒ x = 5 (maksimi).",
+        "A(5) = <b>25 cm²</b> (neliö)."
+      ]
+    },
+    {
+      "id": "maa6-harj-12",
+      "numero": "12",
+      "aihe": "Ääriarvotehtävä: avoin laatikko",
+      "pisteet": 12,
+      "muistilista": "MAA6",
+      "teksti": [
+        "12 cm × 12 cm pahvilevyn kulmista leikataan pois x cm:n kokoiset neliöt ja reunat taitetaan ylös avoimeksi laatikoksi.",
+        "<b>Mikä on laatikon suurin mahdollinen tilavuus?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 128,
+        "toleranssi": 0.01,
+        "yksikko": "cm³",
+        "esimerkki": "100"
+      },
+      "ratkaisu": [
+        "V(x) = x(12 − 2x)<sup>2</sup>, 0 < x < 6.",
+        "V'(x) = (12 − 2x)(12 − 6x) = 0 ⇒ x = 2 (x = 6 ei kelpaa).",
+        "V(2) = 2 · 8<sup>2</sup> = <b>128 cm³</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-13",
+      "numero": "13",
+      "aihe": "Pienin arvo",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "<b>Määritä</b> funktion f(x) = x + 4/x pienin arvo, kun x > 0."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 4,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "f'(x) = 1 − 4/x<sup>2</sup> = 0 ⇒ x = 2 (x > 0).",
+        "f' vaihtaa merkkiä − → +, joten kyseessä on minimi.",
+        "f(2) = 2 + 2 = <b>4</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-14",
+      "numero": "14",
+      "aihe": "Kulkukaavio",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "<b>Missä kohdassa</b> funktiolla f(x) = x<sup>3</sup> − 3x on paikallinen minimi?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "0"
+      },
+      "ratkaisu": [
+        "f'(x) = 3x<sup>2</sup> − 3 = 3(x − 1)(x + 1).",
+        "f' < 0 välillä (−1, 1) ja f' > 0, kun x > 1.",
+        "Paikallinen minimi kohdassa <b>x = 1</b>."
+      ]
+    },
+    {
+      "id": "maa6-harj-15",
+      "numero": "15",
+      "aihe": "Suurin arvo suljetulla välillä",
+      "pisteet": 6,
+      "muistilista": "MAA6",
+      "teksti": [
+        "<b>Määritä</b> funktion f(x) = −x<sup>2</sup> + 4x + 1 suurin arvo välillä [0, 5]."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 5,
+        "toleranssi": 0.01,
+        "esimerkki": "1"
+      },
+      "ratkaisu": [
+        "f'(x) = −2x + 4 = 0 ⇒ x = 2.",
+        "Verrataan: f(0) = 1, f(2) = 5, f(5) = −4.",
+        "Suurin arvo on <b>5</b>."
+      ]
+    }
+  ]
+}

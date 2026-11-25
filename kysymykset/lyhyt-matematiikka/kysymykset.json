@@ -1,0 +1,76 @@
+{
+  "aine": "lyhyt-matematiikka",
+  "kysymykset": [
+    {
+      "id": "mab-k2023-8.2",
+      "numero": "8.2",
+      "aihe": "Korkolaskenta · Määräaikaistili",
+      "osaAlue": "Talousmatematiikka",
+      "lahde": "Kevät 2023",
+      "pisteet": 12,
+      "muistilista": "korkolaskenta",
+      "teksti": [
+        "Anne tilaa autoliikkeestä uuden sähköauton, vaikka sen toimitusajaksi ilmoitetaan yksi vuosi. Auton hinta on 26 000 euroa. Anne sopii autoliikkeen kanssa, että auton toimitus tapahtuu täsmälleen yhden vuoden kuluttua ja että kaupassa sovelletaan seuraavia maksuehtoja: sopimushetkellä Anne maksaa 2 000 euron käsirahan, puolen vuoden jälkeen 2 000 euroa ja toimituksen yhteydessä vuoden kuluttua 22 000 euroa.",
+        "Auton maksua varten Anne avaa määräaikaistilin, jolla on 2,4 %:n vuotuinen nettokorkokanta ja kuuden kuukauden korkojakso. <b>Kuinka suuri summa Annen täytyy vähintään tallettaa sopimushetkellä tilille, jotta hän voisi maksaa tililtä ensimmäisen maksuerän puolen vuoden kuluttua ja loppusumman vuoden kuluttua?</b> Anne suorittaa maksut tililtä koronmaksun jälkeen."
+      ],
+      "aikajana": {
+        "otsikko": "MAKSUAIKATAULU",
+        "kohdat": [
+          { "aika": "0 kk", "selite": "Käsiraha", "arvo": "2 000 €" },
+          { "aika": "6 kk", "selite": "1. erä tililtä", "arvo": "2 000 €", "vari": "turkoosi" },
+          { "aika": "12 kk", "selite": "Loppusumma tililtä", "arvo": "22 000 €", "vari": "tiili" }
+        ]
+      },
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 23457.64,
+        "toleranssi": 1,
+        "desimaalit": 2,
+        "yksikko": "€",
+        "esimerkki": "12 345,67"
+      },
+      "ratkaisu": [
+        "Käsiraha maksetaan heti, joten tililtä maksetaan vain 2 000 € (6 kk) ja 22 000 € (12 kk).",
+        "Yhden korkojakson korkokanta on 2,4 % / 2 = 1,2 %, joten kasvutekijä q = 1,012.",
+        "1. erän nykyarvo: 2 000 / 1,012 ≈ 1 976,28 €.",
+        "Loppusumman nykyarvo (2 jaksoa): 22 000 / 1,012<sup>2</sup> ≈ 21 481,35 €.",
+        "Talletettava summa on nykyarvojen summa: 1 976,28 + 21 481,35 ≈ <b>23 457,64 €</b> (noin 23 458 €)."
+      ]
+    },
+    {
+      "id": "mab-harj-prosentit-1",
+      "numero": "1",
+      "aihe": "Prosenttilaskenta · Peräkkäiset muutokset",
+      "osaAlue": "Talousmatematiikka",
+      "pisteet": 6,
+      "muistilista": "prosentit",
+      "teksti": [
+        "Takin hinta on 80 euroa. Hintaa nostetaan ensin 15 % ja myöhemmin alennuksessa hintaa lasketaan 15 %.",
+        "<b>Mikä on takin hinta lopuksi?</b>"
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 78.2, "toleranssi": 0.01, "desimaalit": 2, "yksikko": "€", "esimerkki": "79,50" },
+      "ratkaisu": [
+        "Korotus 15 %: kerroin 1,15. Alennus 15 %: kerroin 0,85.",
+        "80 € · 1,15 · 0,85 = 78,20 €.",
+        "Huomaa: hinta ei palaa 80 euroon, koska alennus lasketaan korotetusta hinnasta."
+      ]
+    },
+    {
+      "id": "mab-harj-korko-1",
+      "numero": "2",
+      "aihe": "Korkolaskenta · Koronkorko",
+      "osaAlue": "Talousmatematiikka",
+      "pisteet": 6,
+      "muistilista": "korkolaskenta",
+      "teksti": [
+        "Talletat tilille 5 000 euroa. Tilin vuotuinen nettokorkokanta on 3,0 % ja korko lisätään pääomaan kerran vuodessa.",
+        "<b>Paljonko tilillä on rahaa 4 vuoden kuluttua?</b>"
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 5627.54, "toleranssi": 0.5, "desimaalit": 2, "yksikko": "€", "esimerkki": "5 500,00" },
+      "ratkaisu": [
+        "Kasvutekijä q = 1 + 0,03 = 1,03 ja jaksoja n = 4.",
+        "K<sub>4</sub> = 5 000 · 1,03<sup>4</sup> ≈ 5 000 · 1,12551 ≈ <b>5 627,54 €</b>."
+      ]
+    }
+  ]
+}

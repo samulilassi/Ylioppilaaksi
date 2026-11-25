@@ -1,0 +1,28 @@
+{
+  "kinematiikka": {
+    "otsikko": "Tasaisesti kiihtyvä liike",
+    "osiot": [
+      { "otsikko": "Kiihtyvyys", "teksti": "Kiihtyvyys kertoo, kuinka nopeasti nopeus muuttuu.", "kaava": "a = Δv / Δt" },
+      { "otsikko": "Nopeus", "teksti": "Nopeus hetkellä t, kun alkunopeus on v<sub>0</sub>:", "kaava": "v = v<sub>0</sub> + a·t" },
+      { "otsikko": "Matka", "teksti": "Kuljettu matka tasaisessa kiihtyvyydessä:", "kaava": "s = v<sub>0</sub>t + ½at<sup>2</sup>" }
+    ],
+    "yleinenVirhe": "Muuta yksiköt SI-yksiköiksi ennen laskemista: km/h → m/s jakamalla 3,6:lla.",
+    "taulukot": "Mekaniikan kaavat, MAOL-taulukot"
+  },
+  "sahko": {
+    "otsikko": "Tasavirtapiirit",
+    "osiot": [
+      { "otsikko": "Ohmin laki", "teksti": "Jännite, resistanssi ja virta liittyvät toisiinsa.", "kaava": "U = R · I" },
+      { "otsikko": "Teho", "teksti": "Vastuksen kuluttama teho:", "kaava": "P = U · I" }
+    ],
+    "yleinenVirhe": "Muista etuliitteet: 1 mA = 0,001 A ja 1 kΩ = 1 000 Ω."
+  },
+  "energia": {
+    "otsikko": "Mekaaninen energia",
+    "osiot": [
+      { "otsikko": "Potentiaalienergia", "teksti": "Kappaleen energia korkeuden h vuoksi:", "kaava": "E<sub>p</sub> = mgh" },
+      { "otsikko": "Liike-energia", "teksti": "Liikkuvan kappaleen energia:", "kaava": "E<sub>k</sub> = ½mv<sup>2</sup>" }
+    ],
+    "yleinenVirhe": "Ilmoita tulos järkevällä tarkkuudella: yhtä monella merkitsevällä numerolla kuin epätarkin lähtöarvo."
+  }
+}

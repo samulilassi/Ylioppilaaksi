@@ -1,0 +1,28 @@
+{
+  "ainemaara": {
+    "otsikko": "Ainemäärä",
+    "osiot": [
+      { "otsikko": "Ainemäärä ja massa", "teksti": "Ainemäärä n saadaan jakamalla massa moolimassalla.", "kaava": "n = m / M" },
+      { "otsikko": "Moolimassa", "teksti": "Yhdisteen moolimassa on sen atomien moolimassojen summa." }
+    ],
+    "yleinenVirhe": "Muista kertoa alaindeksillä: H<sub>2</sub>O sisältää kaksi vetyatomia.",
+    "taulukot": "Alkuaineiden moolimassat, MAOL-taulukot"
+  },
+  "happo-emas": {
+    "otsikko": "pH-laskut",
+    "osiot": [
+      { "otsikko": "pH", "teksti": "pH lasketaan oksoniumionien konsentraatiosta.", "kaava": "pH = −lg[H<sub>3</sub>O<sup>+</sup>]" },
+      { "otsikko": "Vahva vs. heikko", "teksti": "<b>Vahva</b> happo protolysoituu täysin. <b>Heikon</b> hapon kanssa tarvitaan happovakio K<sub>a</sub>." }
+    ],
+    "yleinenVirhe": "Kun konsentraatio pienenee kymmenesosaan, pH kasvaa yhdellä, ei pienene."
+  },
+  "sidokset": {
+    "otsikko": "Kemialliset sidokset",
+    "osiot": [
+      { "otsikko": "Ionisidos", "teksti": "Metalli + epämetalli, suuri elektronegatiivisuusero (> n. 1,7)." },
+      { "otsikko": "Kovalenttinen sidos", "teksti": "Epämetallien välillä. Poolinen, jos elektronegatiivisuusero on 0,5–1,7." },
+      { "otsikko": "Metallisidos", "teksti": "Metalliatomien välillä, vapaasti liikkuvat elektronit." }
+    ],
+    "yleinenVirhe": "Vetysidos on molekyylien <b>välinen</b> heikko sidos, ei atomien välinen sidos yhdisteen sisällä."
+  }
+}

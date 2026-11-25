@@ -1,0 +1,56 @@
+{
+  "aine": "fysiikka",
+  "kysymykset": [
+    {
+      "id": "fys-harj-kiihtyvyys-1",
+      "numero": "1",
+      "aihe": "Kinematiikka · Kiihtyvyys",
+      "osaAlue": "Mekaniikka",
+      "pisteet": 6,
+      "muistilista": "kinematiikka",
+      "teksti": [
+        "Auto lähtee levosta ja sen nopeus on 10 sekunnin kuluttua 25 m/s. Oletetaan, että kiihtyvyys on tasainen.",
+        "<b>Kuinka suuri on auton kiihtyvyys?</b>"
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 2.5, "toleranssi": 0.01, "yksikko": "m/s²", "esimerkki": "1,8" },
+      "ratkaisu": [
+        "a = Δv / Δt",
+        "a = (25 m/s − 0 m/s) / 10 s = <b>2,5 m/s²</b>."
+      ]
+    },
+    {
+      "id": "fys-harj-ohm-1",
+      "numero": "2",
+      "aihe": "Sähkö · Ohmin laki",
+      "osaAlue": "Sähkö",
+      "pisteet": 6,
+      "muistilista": "sahko",
+      "teksti": [
+        "12 Ω:n vastuksen läpi kulkee 0,50 A:n sähkövirta.",
+        "<b>Kuinka suuri jännite vastuksen yli on?</b>"
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 6, "toleranssi": 0.01, "yksikko": "V", "esimerkki": "4,5" },
+      "ratkaisu": [
+        "Ohmin laki: U = R · I.",
+        "U = 12 Ω · 0,50 A = <b>6,0 V</b>."
+      ]
+    },
+    {
+      "id": "fys-harj-energia-1",
+      "numero": "3",
+      "aihe": "Energia · Potentiaalienergia",
+      "osaAlue": "Mekaniikka",
+      "pisteet": 6,
+      "muistilista": "energia",
+      "teksti": [
+        "20 kg:n laatikko nostetaan lattialta 1,5 metrin korkeudella olevalle hyllylle.",
+        "<b>Kuinka paljon laatikon potentiaalienergia kasvaa?</b> Käytä g = 9,81 m/s²."
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 294.3, "toleranssi": 1, "yksikko": "J", "esimerkki": "150" },
+      "ratkaisu": [
+        "E<sub>p</sub> = m · g · h",
+        "E<sub>p</sub> = 20 kg · 9,81 m/s² · 1,5 m ≈ <b>294 J</b>."
+      ]
+    }
+  ]
+}

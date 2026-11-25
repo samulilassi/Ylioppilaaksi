@@ -1,0 +1,25 @@
+{
+  "id": "mab-k2024-1",
+  "numero": "1",
+  "aihe": "Aihe · Tarkempi aihe",
+  "osaAlue": "Osa-alue",
+  "lahde": "Kevät 2024",
+  "pisteet": 12,
+  "muistilista": "korkolaskenta",
+  "teksti": [
+    "Ensimmäinen kappale tehtävänantoa.",
+    "<b>Varsinainen kysymys lihavoituna?</b>"
+  ],
+  "vastaus": {
+    "tyyppi": "numero",
+    "oikea": 123.45,
+    "toleranssi": 0.01,
+    "desimaalit": 2,
+    "yksikko": "€",
+    "esimerkki": "100,00"
+  },
+  "ratkaisu": [
+    "Ensimmäinen ratkaisuvaihe.",
+    "Toinen vaihe. Lopputulos <b>123,45 €</b>."
+  ]
+}

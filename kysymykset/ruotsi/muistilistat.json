@@ -1,0 +1,26 @@
+{
+  "verbit": {
+    "otsikko": "Verbien aikamuodot",
+    "osiot": [
+      { "otsikko": "Preesens", "teksti": "Nyt tai yleensä.", "kaava": "jag åker" },
+      { "otsikko": "Imperfekti", "teksti": "Mennyt tapahtuma, jonka aika on tiedossa (i går, förra veckan).", "kaava": "jag åkte" },
+      { "otsikko": "Perfekti", "teksti": "Mennyt tapahtuma ilman tarkkaa aikaa.", "kaava": "jag har åkt" }
+    ],
+    "yleinenVirhe": "Älä käytä perfektiä tarkan menneen ajanilmauksen kanssa: ✗ \"Jag har åkt i går\"."
+  },
+  "substantiivit": {
+    "otsikko": "Substantiivien taivutus",
+    "osiot": [
+      { "otsikko": "Neljä muotoa", "teksti": "Epämääräinen ja määräinen yksikkö sekä monikko.", "kaava": "en bil – bilen – bilar – bilarna" },
+      { "otsikko": "Vokaalinmuutos", "teksti": "Osa sanoista muuttaa vokaalia monikossa: bok → böcker, hand → händer, stad → städer." }
+    ],
+    "yleinenVirhe": "Monikon pääte riippuu taivutusluokasta (-or, -ar, -er, -n, ei päätettä). Opettele sana aina koko taivutuksen kanssa."
+  },
+  "sanasto": {
+    "otsikko": "Tärkeitä pieniä sanoja",
+    "osiot": [
+      { "otsikko": "Usein kokeessa", "teksti": "<b>ändå</b> = silti · <b>också</b> = myös · <b>sedan</b> = sitten · <b>kanske</b> = ehkä · <b>redan</b> = jo · <b>fortfarande</b> = yhä" }
+    ],
+    "yleinenVirhe": "<i>Ändå</i> ja <i>också</i> sekoittuvat helposti. <i>Också</i> = myös."
+  }
+}

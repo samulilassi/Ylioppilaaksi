@@ -1,0 +1,31 @@
+{
+  "lauseenjasenet": {
+    "otsikko": "Lauseenjäsenet",
+    "osiot": [
+      { "otsikko": "Predikaatti", "teksti": "Lauseen verbi, esim. <i>luin</i>." },
+      { "otsikko": "Subjekti", "teksti": "Kuka tai mikä tekee? Usein nominatiivissa." },
+      { "otsikko": "Objekti", "teksti": "Kohde: <i>mitä luin?</i> Kokonais- tai osaobjekti (kirjan / kirjaa)." },
+      { "otsikko": "Adverbiaali", "teksti": "Kertoo ajan, paikan, tavan tms.: <i>eilen, kotona, nopeasti</i>." }
+    ],
+    "yleinenVirhe": "-n-päätteinen sana ei aina ole genetiiviattribuutti. Kysy predikaatilta: jos sana vastaa kysymykseen \"mitä?\", se on objekti."
+  },
+  "oikeinkirjoitus": {
+    "otsikko": "Lukusanat",
+    "osiot": [
+      { "otsikko": "Yhteen", "teksti": "kaksikymmentäkolme, viisisataa, kuusikymmentä." },
+      { "otsikko": "Tuhannen jälkeen", "teksti": "Väli on sallittu: kaksituhatta kolmesataa (tai yhteen)." },
+      { "otsikko": "Järjestysluvut", "teksti": "kahdeskymmenes, sadas, tuhannes." }
+    ],
+    "yleinenVirhe": "Älä tavuviivoita lukusanoja: ✗ kuusi-kymmentä."
+  },
+  "retoriikka": {
+    "otsikko": "Vaikuttamisen keinoja",
+    "osiot": [
+      { "otsikko": "Retorinen kysymys", "teksti": "Kysymys, johon ei odoteta vastausta." },
+      { "otsikko": "Auktoriteetti", "teksti": "Vedotaan asiantuntijaan tai arvostettuun lähteeseen." },
+      { "otsikko": "Liioittelu ja vertaus", "teksti": "Liioittelu suurentaa asiaa, vertaus rinnastaa (<i>kuin</i>)." }
+    ],
+    "yleinenVirhe": "Pelkkä keinon nimeäminen ei riitä kokeessa: kerro myös, <b>mitä vaikutusta</b> keinolla tavoitellaan.",
+    "taulukot": "YTL: äidinkielen kokeen arviointiperusteet"
+  }
+}

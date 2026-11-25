@@ -1,0 +1,56 @@
+{
+  "aine": "englanti",
+  "kysymykset": [
+    {
+      "id": "eng-harj-conditional-1",
+      "numero": "1",
+      "aihe": "Grammar · Second conditional",
+      "osaAlue": "Grammar",
+      "pisteet": 1,
+      "muistilista": "conditionals",
+      "teksti": [
+        "Choose the word that best completes the sentence:",
+        "<b>If I ______ more free time, I would travel around South America.</b>"
+      ],
+      "vastaus": { "tyyppi": "valinta", "vaihtoehdot": ["have", "had", "will have", "would have"], "oikea": 1 },
+      "ratkaisu": [
+        "This is an imaginary situation in the present, so we use the <b>second conditional</b>.",
+        "Structure: <i>if</i> + past simple, <i>would</i> + base form → \"If I <b>had</b> more free time, I would travel…\""
+      ]
+    },
+    {
+      "id": "eng-harj-vocab-1",
+      "numero": "2",
+      "aihe": "Vocabulary · Synonyms",
+      "osaAlue": "Vocabulary",
+      "pisteet": 1,
+      "muistilista": "vocabulary",
+      "teksti": [
+        "<b>Which word is closest in meaning to \"reluctant\"?</b>",
+        "<i>She was reluctant to share her plans with the rest of the team.</i>"
+      ],
+      "vastaus": { "tyyppi": "valinta", "vaihtoehdot": ["eager", "unwilling", "relieved", "confident"], "oikea": 1 },
+      "ratkaisu": [
+        "<i>Reluctant</i> means not wanting to do something → <b>unwilling</b>.",
+        "<i>Eager</i> is the opposite: very keen to do something."
+      ]
+    },
+    {
+      "id": "eng-harj-irregular-1",
+      "numero": "3",
+      "aihe": "Grammar · Irregular verbs",
+      "osaAlue": "Grammar",
+      "pisteet": 1,
+      "muistilista": "irregular",
+      "teksti": [
+        "Write the past simple form of the verb in brackets:",
+        "<b>The refugees ______ (seek) shelter in the neighbouring village.</b>"
+      ],
+      "vastaus": { "tyyppi": "teksti", "hyvaksytyt": ["sought"], "esimerkki": "went" },
+      "ratkaisu": [
+        "<i>Seek</i> is irregular: seek – <b>sought</b> – sought.",
+        "Similar pattern: buy – bought, think – thought, bring – brought."
+      ]
+    }
+  ]
+}

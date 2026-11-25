@@ -1,0 +1,59 @@
+{
+  "aine": "kemia",
+  "kysymykset": [
+    {
+      "id": "kem-harj-ainemaara-1",
+      "numero": "1",
+      "aihe": "Ainemäärä · Moolimassa",
+      "osaAlue": "Stoikiometria",
+      "pisteet": 6,
+      "muistilista": "ainemaara",
+      "teksti": [
+        "Lasissa on 36,0 g vettä (H<sub>2</sub>O).",
+        "<b>Kuinka monta moolia vettä lasissa on?</b> Käytä moolimassoja M(H) = 1,008 g/mol ja M(O) = 16,00 g/mol."
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 2.0, "toleranssi": 0.02, "desimaalit": 2, "yksikko": "mol", "esimerkki": "1,50" },
+      "ratkaisu": [
+        "M(H<sub>2</sub>O) = 2 · 1,008 + 16,00 = 18,016 g/mol.",
+        "n = m / M = 36,0 g / 18,016 g/mol ≈ <b>2,00 mol</b>."
+      ]
+    },
+    {
+      "id": "kem-harj-ph-1",
+      "numero": "2",
+      "aihe": "Hapot ja emäkset · pH",
+      "osaAlue": "Hapot ja emäkset",
+      "pisteet": 6,
+      "muistilista": "happo-emas",
+      "teksti": [
+        "Suolahappoliuoksen (HCl) konsentraatio on 0,010 mol/l. Suolahappo on vahva happo.",
+        "<b>Mikä on liuoksen pH?</b>"
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 2, "toleranssi": 0.01, "esimerkki": "3" },
+      "ratkaisu": [
+        "Vahva happo protolysoituu täysin, joten [H<sub>3</sub>O<sup>+</sup>] = 0,010 mol/l.",
+        "pH = −lg[H<sub>3</sub>O<sup>+</sup>] = −lg 0,010 = <b>2</b>."
+      ]
+    },
+    {
+      "id": "kem-harj-sidokset-1",
+      "numero": "3",
+      "aihe": "Kemialliset sidokset",
+      "osaAlue": "Aineen rakenne",
+      "pisteet": 3,
+      "muistilista": "sidokset",
+      "teksti": [
+        "<b>Millainen sidos natriumkloridissa (NaCl) on natriumin ja kloorin välillä?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "valinta",
+        "vaihtoehdot": ["Poolinen kovalenttinen sidos", "Ionisidos", "Metallisidos", "Vetysidos"],
+        "oikea": 1
+      },
+      "ratkaisu": [
+        "Natrium on metalli ja kloori epämetalli; niiden elektronegatiivisuusero on suuri (n. 2,1).",
+        "Natrium luovuttaa elektronin kloorille, jolloin syntyy ionit Na<sup>+</sup> ja Cl<sup>−</sup>. Sidos on <b>ionisidos</b>."
+      ]
+    }
+  ]
+}

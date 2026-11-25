@@ -1,0 +1,9 @@
+[
+  { "id": "pitka-matematiikka", "nimi": "Matematiikka", "alanimi": "Pitkä oppimäärä", "lyhenne": "MAA", "ikoni": "integraali", "kieli": "fi", "kurssit": true },
+  { "id": "lyhyt-matematiikka", "nimi": "Matematiikka", "alanimi": "Lyhyt oppimäärä", "lyhenne": "MAB", "ikoni": "prosentti", "kieli": "fi" },
+  { "id": "fysiikka", "nimi": "Fysiikka", "lyhenne": "FYS", "ikoni": "atomi", "kieli": "fi" },
+  { "id": "kemia", "nimi": "Kemia", "lyhenne": "KEM", "ikoni": "pullo", "kieli": "fi" },
+  { "id": "englanti", "nimi": "English", "lyhenne": "ENG", "ikoni": "kupla_en", "kieli": "en" },
+  { "id": "ruotsi", "nimi": "Ruotsi", "lyhenne": "RUO", "ikoni": "kupla_sv", "kieli": "fi" },
+  { "id": "aidinkieli", "nimi": "Äidinkieli ja kirjallisuus", "lyhenne": "ÄI", "ikoni": "kirja", "kieli": "fi" }
+]

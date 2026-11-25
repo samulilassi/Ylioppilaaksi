@@ -1,0 +1,57 @@
+{
+  "aine": "pitka-matematiikka",
+  "kysymykset": [
+    {
+      "id": "maa-harj-derivaatta-1",
+      "numero": "1",
+      "aihe": "Derivaatta · Paikallinen maksimi",
+      "osaAlue": "Differentiaalilaskenta",
+      "pisteet": 12,
+      "muistilista": "derivaatta",
+      "teksti": [
+        "Tarkastellaan funktiota f(x) = x<sup>3</sup> − 6x<sup>2</sup> + 9x + 1.",
+        "<b>Määritä funktion paikallisen maksimin arvo.</b>"
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 5, "toleranssi": 0.001, "esimerkki": "3" },
+      "ratkaisu": [
+        "Derivoidaan: f'(x) = 3x<sup>2</sup> − 12x + 9 = 3(x − 1)(x − 3).",
+        "Derivaatan nollakohdat ovat x = 1 ja x = 3.",
+        "Merkkikaavio: f' > 0, kun x < 1; f' < 0, kun 1 < x < 3; f' > 0, kun x > 3. Maksimi on siis kohdassa x = 1.",
+        "f(1) = 1 − 6 + 9 + 1 = <b>5</b>."
+      ]
+    },
+    {
+      "id": "maa-harj-integraali-1",
+      "numero": "2",
+      "aihe": "Integraali · Määrätty integraali",
+      "osaAlue": "Integraalilaskenta",
+      "pisteet": 12,
+      "muistilista": "integraali",
+      "teksti": [
+        "<b>Laske määrätty integraali</b> ∫<sub>0</sub><sup>2</sup> (3x<sup>2</sup> + 2x) dx."
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 12, "toleranssi": 0.001, "esimerkki": "8" },
+      "ratkaisu": [
+        "Integraalifunktio: F(x) = x<sup>3</sup> + x<sup>2</sup>.",
+        "F(2) − F(0) = (8 + 4) − 0 = <b>12</b>."
+      ]
+    },
+    {
+      "id": "maa-harj-logaritmi-1",
+      "numero": "3",
+      "aihe": "Eksponenttiyhtälö · Logaritmi",
+      "osaAlue": "Eksponentti- ja logaritmifunktiot",
+      "pisteet": 12,
+      "muistilista": "logaritmi",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> 2<sup>x + 1</sup> = 48. Anna vastaus kahden desimaalin tarkkuudella."
+      ],
+      "vastaus": { "tyyppi": "numero", "oikea": 4.585, "toleranssi": 0.01, "desimaalit": 2, "esimerkki": "3,21" },
+      "ratkaisu": [
+        "Jaetaan kahdella: 2<sup>x</sup> = 24.",
+        "Otetaan logaritmi: x = log<sub>2</sub> 24 = ln 24 / ln 2.",
+        "x ≈ 3,1781 / 0,6931 ≈ <b>4,58</b> (tarkemmin 4,585)."
+      ]
+    }
+  ]
+}

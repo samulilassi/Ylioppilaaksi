@@ -1,0 +1,314 @@
+{
+  "kurssi": "MAA5",
+  "kysymykset": [
+    {
+      "id": "maa-harj-logaritmi-1",
+      "numero": "1",
+      "aihe": "Eksponenttiyhtälö · Logaritmi",
+      "pisteet": 12,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> 2<sup>x + 1</sup> = 48. Anna vastaus kahden desimaalin tarkkuudella."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 4.584963,
+        "toleranssi": 0.01,
+        "desimaalit": 2,
+        "esimerkki": "3,21"
+      },
+      "ratkaisu": [
+        "Jaetaan kahdella: 2<sup>x</sup> = 24.",
+        "Otetaan logaritmi: x = log<sub>2</sub> 24 = ln 24 / ln 2.",
+        "x ≈ 3,1781 / 0,6931 ≈ <b>4,58</b> (tarkemmin 4,585)."
+      ]
+    },
+    {
+      "id": "maa5-harj-02",
+      "numero": "2",
+      "aihe": "Trigonometrinen yhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> sin x = ½, kun 0° ≤ x < 360°.",
+        "Anna kulmat asteina."
+      ],
+      "vastaus": {
+        "tyyppi": "numerot",
+        "oikeat": [
+          30,
+          150
+        ],
+        "toleranssi": 0.1,
+        "esimerkki": "45; 135"
+      },
+      "ratkaisu": [
+        "sin 30° = ½. Sini on positiivinen I ja II neljänneksessä.",
+        "x = <b>30°</b> tai x = 180° − 30° = <b>150°</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-03",
+      "numero": "3",
+      "aihe": "Radiaanit",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Muunna</b> 135° radiaaneiksi (kahden desimaalin tarkkuudella)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 2.356194,
+        "toleranssi": 0.01,
+        "desimaalit": 2,
+        "esimerkki": "1,57"
+      },
+      "ratkaisu": [
+        "180° = π rad, joten 135° = 135/180 · π = 3π/4.",
+        "3π/4 ≈ <b>2,36</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-04",
+      "numero": "4",
+      "aihe": "Kosinin tarkka arvo",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Mikä on</b> cos(π/3) tarkka arvo?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.5,
+        "toleranssi": 0.01,
+        "esimerkki": "0,707"
+      },
+      "ratkaisu": [
+        "π/3 = 60°. Puolikkaasta tasasivuisesta kolmiosta: cos 60° = <b>½</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-05",
+      "numero": "5",
+      "aihe": "Tangenttiyhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Ratkaise</b> tan x = 1, kun 0° ≤ x < 180°."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 45,
+        "toleranssi": 0.1,
+        "yksikko": "°",
+        "esimerkki": "30"
+      },
+      "ratkaisu": [
+        "tan x = 1, kun vastainen ja viereinen kateetti ovat yhtä pitkät.",
+        "x = <b>45°</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-06",
+      "numero": "6",
+      "aihe": "Eksponenttiyhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> 3<sup>x</sup> = 81."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 4,
+        "toleranssi": 0.01,
+        "esimerkki": "3"
+      },
+      "ratkaisu": [
+        "81 = 3<sup>4</sup>, joten x = <b>4</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-07",
+      "numero": "7",
+      "aihe": "Logaritmin laskusäännöt",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Laske</b> lg 1000 + lg 0,01."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "5"
+      },
+      "ratkaisu": [
+        "lg 1000 = 3 ja lg 0,01 = −2.",
+        "3 + (−2) = <b>1</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-08",
+      "numero": "8",
+      "aihe": "Luonnollinen logaritmi",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> ln x = 2 (kahden desimaalin tarkkuudella)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 7.389056,
+        "toleranssi": 0.01,
+        "desimaalit": 2,
+        "esimerkki": "5,00"
+      },
+      "ratkaisu": [
+        "ln x = 2 ⇔ x = e<sup>2</sup> ≈ <b>7,39</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-09",
+      "numero": "9",
+      "aihe": "Eksponentiaalinen kasvu",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "Kaupungissa on 5 000 asukasta, ja väkiluku kasvaa 4 % vuodessa. <b>Kuinka monta asukasta kaupungissa on 10 vuoden kuluttua?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 7401.221425,
+        "toleranssi": 1,
+        "desimaalit": 0,
+        "yksikko": "as.",
+        "esimerkki": "6 000"
+      },
+      "ratkaisu": [
+        "Kasvukerroin 1,04 ja aika 10 vuotta.",
+        "5 000 · 1,04<sup>10</sup> ≈ <b>7 401</b> asukasta."
+      ]
+    },
+    {
+      "id": "maa5-harj-10",
+      "numero": "10",
+      "aihe": "Puoliintumisaika",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "Lääkeaineen puoliintumisaika elimistössä on 6 h. Potilas saa 80 mg annoksen. <b>Paljonko ainetta on jäljellä 18 tunnin kuluttua?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 10,
+        "toleranssi": 0.01,
+        "yksikko": "mg",
+        "esimerkki": "20"
+      },
+      "ratkaisu": [
+        "18 h = 3 puoliintumisaikaa.",
+        "80 mg · (½)<sup>3</sup> = <b>10 mg</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-11",
+      "numero": "11",
+      "aihe": "Aritmeettinen jono",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "Aritmeettisen jonon ensimmäinen jäsen on 3 ja erotus 4. <b>Mikä on jonon 20. jäsen?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 79,
+        "toleranssi": 0.01,
+        "esimerkki": "75"
+      },
+      "ratkaisu": [
+        "a<sub>n</sub> = a<sub>1</sub> + (n − 1)d.",
+        "a<sub>20</sub> = 3 + 19 · 4 = <b>79</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-12",
+      "numero": "12",
+      "aihe": "Aritmeettinen summa",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Laske summa</b> 1 + 2 + 3 + … + 100."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 5050,
+        "toleranssi": 0.01,
+        "esimerkki": "5 000"
+      },
+      "ratkaisu": [
+        "S = n(a<sub>1</sub> + a<sub>n</sub>) / 2 = 100 · 101 / 2 = <b>5 050</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-13",
+      "numero": "13",
+      "aihe": "Geometrinen jono",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "Geometrisen jonon ensimmäinen jäsen on 2 ja suhdeluku 3. <b>Mikä on jonon 6. jäsen?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 486,
+        "toleranssi": 0.01,
+        "esimerkki": "162"
+      },
+      "ratkaisu": [
+        "a<sub>n</sub> = a<sub>1</sub> · q<sup>n−1</sup>.",
+        "a<sub>6</sub> = 2 · 3<sup>5</sup> = 2 · 243 = <b>486</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-14",
+      "numero": "14",
+      "aihe": "Geometrinen summa",
+      "pisteet": 6,
+      "muistilista": "MAA5",
+      "teksti": [
+        "<b>Laske summa</b> 2 + 6 + 18 + … + 486."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 728,
+        "toleranssi": 0.01,
+        "esimerkki": "700"
+      },
+      "ratkaisu": [
+        "Jäseniä on 6 (2 · 3<sup>5</sup> = 486).",
+        "S = a<sub>1</sub>(q<sup>n</sup> − 1)/(q − 1) = 2(729 − 1)/2 = <b>728</b>."
+      ]
+    },
+    {
+      "id": "maa5-harj-15",
+      "numero": "15",
+      "aihe": "Kaksinkertaistumisaika",
+      "pisteet": 12,
+      "muistilista": "MAA5",
+      "teksti": [
+        "Tilille talletetaan 1 000 € ja vuotuinen korko on 5 %. <b>Monenko vuoden kuluttua</b> tilillä on ensimmäisen kerran yli 2 000 €? (Korko lisätään kerran vuodessa.)"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 15,
+        "toleranssi": 0.01,
+        "esimerkki": "12"
+      },
+      "ratkaisu": [
+        "1 000 · 1,05<sup>n</sup> > 2 000 ⇔ 1,05<sup>n</sup> > 2.",
+        "n > ln 2 / ln 1,05 ≈ 14,2.",
+        "Pienin kokonaisluku on <b>15 vuotta</b>."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "kurssi": "MAA7",
+  "kysymykset": [
+    {
+      "id": "maa-harj-integraali-1",
+      "numero": "1",
+      "aihe": "Integraali · Määrätty integraali",
+      "pisteet": 12,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske määrätty integraali</b> ∫<sub>0</sub><sup>2</sup> (3x<sup>2</sup> + 2x) dx."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 12,
+        "toleranssi": 0.001,
+        "esimerkki": "8"
+      },
+      "ratkaisu": [
+        "Integraalifunktio: F(x) = x<sup>3</sup> + x<sup>2</sup>.",
+        "F(2) − F(0) = (8 + 4) − 0 = <b>12</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-02",
+      "numero": "2",
+      "aihe": "Määrätty integraali",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> ∫<sub>1</sub><sup>2</sup> 4x<sup>3</sup> dx."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 15,
+        "toleranssi": 0.01,
+        "esimerkki": "16"
+      },
+      "ratkaisu": [
+        "Integraalifunktio x<sup>4</sup>.",
+        "2<sup>4</sup> − 1<sup>4</sup> = 16 − 1 = <b>15</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-03",
+      "numero": "3",
+      "aihe": "Sinin integraali",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> ∫<sub>0</sub><sup>π</sup> sin x dx."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 2,
+        "toleranssi": 0.01,
+        "esimerkki": "1"
+      },
+      "ratkaisu": [
+        "Integraalifunktio −cos x.",
+        "−cos π − (−cos 0) = 1 + 1 = <b>2</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-04",
+      "numero": "4",
+      "aihe": "Eksponenttifunktion integraali",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> ∫<sub>0</sub><sup>1</sup> e<sup>x</sup> dx (kahden desimaalin tarkkuudella)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1.718282,
+        "toleranssi": 0.01,
+        "desimaalit": 2,
+        "esimerkki": "2,00"
+      },
+      "ratkaisu": [
+        "Integraalifunktio e<sup>x</sup>.",
+        "e − 1 ≈ <b>1,72</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-05",
+      "numero": "5",
+      "aihe": "1/x:n integraali",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> ∫<sub>1</sub><sup>e</sup> (1/x) dx."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Integraalifunktio ln x.",
+        "ln e − ln 1 = 1 − 0 = <b>1</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-06",
+      "numero": "6",
+      "aihe": "Pinta-ala",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> käyrän y = x<sup>2</sup>, x-akselin ja suoran x = 3 rajaaman alueen pinta-ala."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 9,
+        "toleranssi": 0.01,
+        "esimerkki": "6"
+      },
+      "ratkaisu": [
+        "A = ∫<sub>0</sub><sup>3</sup> x<sup>2</sup> dx = [x<sup>3</sup>/3]<sub>0</sub><sup>3</sup> = <b>9</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-07",
+      "numero": "7",
+      "aihe": "Kahden käyrän välinen ala",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> käyrien y = x ja y = x<sup>2</sup> rajaaman alueen pinta-ala."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.166667,
+        "toleranssi": 0.005,
+        "desimaalit": 3,
+        "esimerkki": "0,25"
+      },
+      "ratkaisu": [
+        "Leikkauskohdat: x = x<sup>2</sup> ⇒ x = 0 tai x = 1. Välillä suora on ylempänä.",
+        "A = ∫<sub>0</sub><sup>1</sup> (x − x<sup>2</sup>) dx = ½ − ⅓ = 1/6 ≈ <b>0,167</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-08",
+      "numero": "8",
+      "aihe": "Paraabelin ja x-akselin rajaama ala",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> paraabelin y = 9 − x<sup>2</sup> ja x-akselin rajaaman alueen pinta-ala."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 36,
+        "toleranssi": 0.01,
+        "esimerkki": "18"
+      },
+      "ratkaisu": [
+        "Nollakohdat x = ±3.",
+        "A = ∫<sub>−3</sub><sup>3</sup> (9 − x<sup>2</sup>) dx = [9x − x<sup>3</sup>/3]<sub>−3</sub><sup>3</sup> = 18 − (−18) = <b>36</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-09",
+      "numero": "9",
+      "aihe": "Integraalifunktio alkuehdolla",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "Funktion F derivaatta on F'(x) = 2x ja F(1) = 5. <b>Laske F(3).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 13,
+        "toleranssi": 0.01,
+        "esimerkki": "9"
+      },
+      "ratkaisu": [
+        "F(x) = x<sup>2</sup> + C. F(1) = 1 + C = 5 ⇒ C = 4.",
+        "F(3) = 9 + 4 = <b>13</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-10",
+      "numero": "10",
+      "aihe": "Integraali ja merkki",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> ∫<sub>0</sub><sup>2</sup> (x<sup>3</sup> − 2x) dx."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Integraalifunktio x<sup>4</sup>/4 − x<sup>2</sup>.",
+        "(4 − 4) − 0 = <b>0</b>. Huom: integraali ≠ pinta-ala, koska funktio saa myös negatiivisia arvoja."
+      ]
+    },
+    {
+      "id": "maa7-harj-11",
+      "numero": "11",
+      "aihe": "Pyörähdyskappale",
+      "pisteet": 12,
+      "muistilista": "MAA7",
+      "teksti": [
+        "Käyrä y = √x, 0 ≤ x ≤ 4, pyörähtää x-akselin ympäri. <b>Laske syntyvän kappaleen tilavuus.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 25.132741,
+        "toleranssi": 0.05,
+        "desimaalit": 2,
+        "esimerkki": "20,00"
+      },
+      "ratkaisu": [
+        "V = π∫<sub>0</sub><sup>4</sup> (√x)<sup>2</sup> dx = π∫<sub>0</sub><sup>4</sup> x dx = π · 8.",
+        "V = 8π ≈ <b>25,13</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-12",
+      "numero": "12",
+      "aihe": "Kartio pyörähdyskappaleena",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "Suora y = x, 0 ≤ x ≤ 3, pyörähtää x-akselin ympäri. <b>Laske syntyvän kartion tilavuus.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 28.274334,
+        "toleranssi": 0.05,
+        "desimaalit": 2,
+        "esimerkki": "25,00"
+      },
+      "ratkaisu": [
+        "V = π∫<sub>0</sub><sup>3</sup> x<sup>2</sup> dx = π · 9 = 9π.",
+        "V ≈ <b>28,27</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-13",
+      "numero": "13",
+      "aihe": "Keskiarvo",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> funktion f(x) = x<sup>2</sup> keskiarvo välillä [0, 3]."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 3,
+        "toleranssi": 0.01,
+        "esimerkki": "4,5"
+      },
+      "ratkaisu": [
+        "Keskiarvo = (1 / (b − a)) ∫<sub>a</sub><sup>b</sup> f(x) dx = ⅓ · 9 = <b>3</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-14",
+      "numero": "14",
+      "aihe": "Kuljettu matka",
+      "pisteet": 6,
+      "muistilista": "MAA7",
+      "teksti": [
+        "Kappaleen nopeus on v(t) = 3t<sup>2</sup> (m/s). <b>Kuinka pitkän matkan kappale kulkee aikavälillä 0–2 s?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 8,
+        "toleranssi": 0.01,
+        "yksikko": "m",
+        "esimerkki": "6"
+      },
+      "ratkaisu": [
+        "Matka on nopeuden integraali: s = ∫<sub>0</sub><sup>2</sup> 3t<sup>2</sup> dt = [t<sup>3</sup>]<sub>0</sub><sup>2</sup> = <b>8 m</b>."
+      ]
+    },
+    {
+      "id": "maa7-harj-15",
+      "numero": "15",
+      "aihe": "Suoran ja paraabelin välinen ala",
+      "pisteet": 12,
+      "muistilista": "MAA7",
+      "teksti": [
+        "<b>Laske</b> paraabelin y = x<sup>2</sup> ja suoran y = 2x + 3 rajaaman alueen pinta-ala."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 10.666667,
+        "toleranssi": 0.01,
+        "desimaalit": 2,
+        "esimerkki": "9,00"
+      },
+      "ratkaisu": [
+        "Leikkauskohdat: x<sup>2</sup> − 2x − 3 = 0 ⇒ x = −1 tai x = 3.",
+        "A = ∫<sub>−1</sub><sup>3</sup> (2x + 3 − x<sup>2</sup>) dx = [x<sup>2</sup> + 3x − x<sup>3</sup>/3]<sub>−1</sub><sup>3</sup> = 9 − (−5/3) = 32/3 ≈ <b>10,67</b>."
+      ]
+    }
+  ]
+}

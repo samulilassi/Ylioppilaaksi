@@ -1,0 +1,55 @@
+{
+  "aine": "aidinkieli",
+  "kysymykset": [
+    {
+      "id": "ai-harj-lauseenjasen-1",
+      "numero": "1",
+      "aihe": "Kielioppi · Lauseenjäsenet",
+      "osaAlue": "Kieli ja kielenhuolto",
+      "pisteet": 1,
+      "muistilista": "lauseenjasenet",
+      "teksti": [
+        "Lause: <i>Luin kirjan eilen.</i>",
+        "<b>Mikä lauseenjäsen sana \"kirjan\" on?</b>"
+      ],
+      "vastaus": { "tyyppi": "valinta", "vaihtoehdot": ["Subjekti", "Objekti", "Predikatiivi", "Adverbiaali"], "oikea": 1 },
+      "ratkaisu": [
+        "Kysytään predikaatilta \"luin\": <i>mitä luin?</i> → kirjan.",
+        "Kokonaisobjekti on genetiivin näköisessä akkusatiivissa (-n). Sana on <b>objekti</b>."
+      ]
+    },
+    {
+      "id": "ai-harj-oikeinkirjoitus-1",
+      "numero": "2",
+      "aihe": "Kielenhuolto · Lukusanat",
+      "osaAlue": "Kieli ja kielenhuolto",
+      "pisteet": 1,
+      "muistilista": "oikeinkirjoitus",
+      "teksti": [
+        "<b>Mikä kirjoitusasu on oikein?</b>"
+      ],
+      "vastaus": { "tyyppi": "valinta", "vaihtoehdot": ["kuusi kymmentä", "kuusi-kymmentä", "kuusikymmentä", "kuusi kymmentä."], "oikea": 2 },
+      "ratkaisu": [
+        "Kymmenet ja sadat kirjoitetaan yhteen: <b>kuusikymmentä</b>, kolmesataa.",
+        "Pitkissä luvuissa voi tuhannen jälkeen tehdä välin: kaksituhatta kolmesataa."
+      ]
+    },
+    {
+      "id": "ai-harj-retoriikka-1",
+      "numero": "3",
+      "aihe": "Tekstitaidot · Retoriset keinot",
+      "osaAlue": "Tekstien tulkinta",
+      "pisteet": 1,
+      "muistilista": "retoriikka",
+      "teksti": [
+        "Mielipidekirjoituksessa lukee: <i>\"Kuka meistä ei haluaisi elää paremmassa maailmassa?\"</i>",
+        "<b>Mikä vaikuttamisen keino on kyseessä?</b>"
+      ],
+      "vastaus": { "tyyppi": "valinta", "vaihtoehdot": ["Retorinen kysymys", "Auktoriteettiin vetoaminen", "Liioittelu", "Vertaus"], "oikea": 0 },
+      "ratkaisu": [
+        "Kysymykseen ei odoteta vastausta, vaan sen \"vastaus\" on itsestään selvä.",
+        "Kyseessä on <b>retorinen kysymys</b>, joka sitouttaa lukijan kirjoittajan näkökulmaan."
+      ]
+    }
+  ]
+}

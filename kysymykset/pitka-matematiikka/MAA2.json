@@ -1,0 +1,325 @@
+{
+  "kurssi": "MAA2",
+  "kysymykset": [
+    {
+      "id": "maa2-harj-01",
+      "numero": "1",
+      "aihe": "Ensimmäisen asteen yhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> 3x − 7 = 2x + 5."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 12,
+        "toleranssi": 0.01,
+        "esimerkki": "4"
+      },
+      "ratkaisu": [
+        "Siirretään x-termit vasemmalle ja vakiot oikealle: 3x − 2x = 5 + 7.",
+        "x = <b>12</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-02",
+      "numero": "2",
+      "aihe": "Toisen asteen yhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> x<sup>2</sup> − 5x + 6 = 0."
+      ],
+      "vastaus": {
+        "tyyppi": "numerot",
+        "oikeat": [
+          2,
+          3
+        ],
+        "toleranssi": 0.01,
+        "esimerkki": "1; 4"
+      },
+      "ratkaisu": [
+        "Ratkaisukaava: x = (5 ± √(25 − 24)) / 2 = (5 ± 1) / 2.",
+        "x = <b>2</b> tai x = <b>3</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-03",
+      "numero": "3",
+      "aihe": "Toisen asteen yhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> 2x<sup>2</sup> + 3x − 2 = 0."
+      ],
+      "vastaus": {
+        "tyyppi": "numerot",
+        "oikeat": [
+          -2,
+          0.5
+        ],
+        "toleranssi": 0.01,
+        "esimerkki": "−1; 3"
+      },
+      "ratkaisu": [
+        "Diskriminantti D = 9 + 16 = 25.",
+        "x = (−3 ± 5) / 4, joten x = <b>½</b> tai x = <b>−2</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-04",
+      "numero": "4",
+      "aihe": "Epäyhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Mikä on <b>suurin kokonaisluku</b>, joka toteuttaa epäyhtälön 4 − 3x > 10?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": -3,
+        "toleranssi": 0.01,
+        "esimerkki": "−5"
+      },
+      "ratkaisu": [
+        "−3x > 6 ⇔ x < −2 (merkki kääntyy, kun jaetaan negatiivisella luvulla).",
+        "Suurin kokonaisluku, joka on pienempi kuin −2, on <b>−3</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-05",
+      "numero": "5",
+      "aihe": "Toisen asteen epäyhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Kuinka monta <b>kokonaislukua</b> toteuttaa epäyhtälön x<sup>2</sup> − 4x − 5 ≤ 0?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 7,
+        "toleranssi": 0.01,
+        "esimerkki": "4"
+      },
+      "ratkaisu": [
+        "Nollakohdat: x<sup>2</sup> − 4x − 5 = (x + 1)(x − 5) = 0 ⇒ x = −1 tai x = 5.",
+        "Ylöspäin aukeava paraabeli on ≤ 0 nollakohtien välissä: −1 ≤ x ≤ 5.",
+        "Kokonaisluvut −1, 0, 1, 2, 3, 4, 5: <b>7 kpl</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-06",
+      "numero": "6",
+      "aihe": "Polynomifunktio",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Olkoon P(x) = 2x<sup>3</sup> − x<sup>2</sup> + 4. <b>Laske P(−2).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": -16,
+        "toleranssi": 0.01,
+        "esimerkki": "10"
+      },
+      "ratkaisu": [
+        "P(−2) = 2·(−8) − 4 + 4 = <b>−16</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-07",
+      "numero": "7",
+      "aihe": "Polynomin nollakohdat",
+      "pisteet": 12,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Polynomilla P(x) = x<sup>3</sup> − 2x<sup>2</sup> − 5x + 6 on nollakohta x = 1.",
+        "<b>Määritä polynomin kaikki nollakohdat.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numerot",
+        "oikeat": [
+          -2,
+          1,
+          3
+        ],
+        "toleranssi": 0.01,
+        "esimerkki": "−1; 2; 4"
+      },
+      "ratkaisu": [
+        "Jaetaan P(x) tekijällä (x − 1): P(x) = (x − 1)(x<sup>2</sup> − x − 6).",
+        "x<sup>2</sup> − x − 6 = (x − 3)(x + 2).",
+        "Nollakohdat: <b>−2, 1 ja 3</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-08",
+      "numero": "8",
+      "aihe": "Rationaaliyhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> (x + 1) / (x − 2) = 3."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 3.5,
+        "toleranssi": 0.01,
+        "esimerkki": "1,5"
+      },
+      "ratkaisu": [
+        "Määrittelyehto x ≠ 2. Kerrotaan ristiin: x + 1 = 3x − 6.",
+        "2x = 7 ⇒ x = <b>3,5</b> (kelpaa)."
+      ]
+    },
+    {
+      "id": "maa2-harj-09",
+      "numero": "9",
+      "aihe": "Rationaalifunktion määrittelyjoukko",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Millä x:n arvoilla funktio f(x) = (x + 3) / (x<sup>2</sup> − 9) <b>ei ole määritelty</b>?"
+      ],
+      "vastaus": {
+        "tyyppi": "numerot",
+        "oikeat": [
+          -3,
+          3
+        ],
+        "toleranssi": 0.01,
+        "esimerkki": "1; 2"
+      },
+      "ratkaisu": [
+        "Nimittäjä ei saa olla nolla: x<sup>2</sup> − 9 = 0 ⇔ x = ±3.",
+        "Funktio ei ole määritelty kohdissa <b>x = −3 ja x = 3</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-10",
+      "numero": "10",
+      "aihe": "Juuriyhtälö",
+      "pisteet": 12,
+      "muistilista": "MAA2",
+      "teksti": [
+        "<b>Ratkaise yhtälö</b> √(x + 7) = x − 5."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 9,
+        "toleranssi": 0.01,
+        "esimerkki": "4"
+      },
+      "ratkaisu": [
+        "Ehto: x − 5 ≥ 0 eli x ≥ 5.",
+        "Korotetaan toiseen: x + 7 = x<sup>2</sup> − 10x + 25 ⇒ x<sup>2</sup> − 11x + 18 = 0 ⇒ x = 2 tai x = 9.",
+        "x = 2 ei täytä ehtoa (√9 = 3 ≠ −3). Ratkaisu on <b>x = 9</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-11",
+      "numero": "11",
+      "aihe": "Juurifunktion määrittelyjoukko",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Mikä on <b>suurin</b> x:n arvo, jolla f(x) = √(6 − 2x) on määritelty?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 3,
+        "toleranssi": 0.01,
+        "esimerkki": "1"
+      },
+      "ratkaisu": [
+        "Juurrettava ≥ 0: 6 − 2x ≥ 0 ⇔ x ≤ 3.",
+        "Suurin arvo on <b>3</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-12",
+      "numero": "12",
+      "aihe": "Rationaaliepäyhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Kuinka monta <b>kokonaislukua</b> toteuttaa epäyhtälön (x − 1) / (x + 2) < 0?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 2,
+        "toleranssi": 0.01,
+        "esimerkki": "5"
+      },
+      "ratkaisu": [
+        "Osoittajan nollakohta x = 1, nimittäjän x = −2.",
+        "Merkkikaavio: lauseke on negatiivinen, kun −2 < x < 1.",
+        "Kokonaisluvut −1 ja 0: <b>2 kpl</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-13",
+      "numero": "13",
+      "aihe": "Sovellus: suorakulmio",
+      "pisteet": 12,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Suorakulmion piiri on 40 cm ja pinta-ala 96 cm².",
+        "<b>Kuinka pitkä on suorakulmion pidempi sivu?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 12,
+        "toleranssi": 0.01,
+        "yksikko": "cm",
+        "esimerkki": "10"
+      },
+      "ratkaisu": [
+        "Sivut x ja 20 − x. Pinta-ala: x(20 − x) = 96.",
+        "x<sup>2</sup> − 20x + 96 = 0 ⇒ x = 8 tai x = 12.",
+        "Pidempi sivu on <b>12 cm</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-14",
+      "numero": "14",
+      "aihe": "Diskriminantti",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Millä positiivisella vakion k arvolla yhtälöllä x<sup>2</sup> + kx + 9 = 0 on <b>täsmälleen yksi</b> ratkaisu?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 6,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Yksi ratkaisu, kun D = k<sup>2</sup> − 36 = 0.",
+        "k = ±6, positiivinen arvo on <b>k = 6</b>."
+      ]
+    },
+    {
+      "id": "maa2-harj-15",
+      "numero": "15",
+      "aihe": "Jakojäännös",
+      "pisteet": 6,
+      "muistilista": "MAA2",
+      "teksti": [
+        "Mikä on jakojäännös, kun polynomi x<sup>3</sup> + 2x − 5 jaetaan polynomilla x − 2?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 7,
+        "toleranssi": 0.01,
+        "esimerkki": "3"
+      },
+      "ratkaisu": [
+        "Jakojäännöslause: jakojäännös on P(2).",
+        "P(2) = 8 + 4 − 5 = <b>7</b>."
+      ]
+    }
+  ]
+}

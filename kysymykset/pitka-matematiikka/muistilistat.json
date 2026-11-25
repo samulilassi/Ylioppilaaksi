@@ -1,0 +1,132 @@
+{
+  "MAA2": {
+    "otsikko": "Funktiot ja yhtälöt 1",
+    "osiot": [
+      { "otsikko": "Toisen asteen yhtälö", "teksti": "Ratkaisukaava, kun ax² + bx + c = 0:", "kaava": "x = (−b ± √(b² − 4ac)) / 2a" },
+      { "otsikko": "Diskriminantti", "teksti": "D = b² − 4ac. <b>D > 0</b>: kaksi ratkaisua, <b>D = 0</b>: yksi, <b>D < 0</b>: ei reaalisia ratkaisuja." },
+      { "otsikko": "Epäyhtälöt", "teksti": "Kun kerrot tai jaat negatiivisella luvulla, <b>epäyhtälömerkki kääntyy</b>. Rationaali- ja toisen asteen epäyhtälöissä käytä merkkikaaviota." },
+      { "otsikko": "Juuriyhtälö", "teksti": "Kirjoita ehto (esim. √a = b ⇒ b ≥ 0) ennen kuin korotat toiseen. Tarkista ratkaisut lopuksi." },
+      { "otsikko": "Jakojäännöslause", "teksti": "Kun P(x) jaetaan (x − a):lla, jakojäännös on P(a). Jos P(a) = 0, (x − a) on tekijä." }
+    ],
+    "yleinenVirhe": "Juuriyhtälössä toiseen korottaminen voi tuoda <b>vääriä juuria</b>. Tarkista aina, toteuttaako ratkaisu alkuperäisen yhtälön.",
+    "taulukot": "Algebra ja polynomit, MAOL-taulukot"
+  },
+  "MAA3": {
+    "otsikko": "Geometria",
+    "osiot": [
+      { "otsikko": "Sinilause", "teksti": "Kun tunnetaan sivu ja vastainen kulma:", "kaava": "a / sin A = b / sin B = c / sin C" },
+      { "otsikko": "Kosinilause", "teksti": "Kun tunnetaan kaksi sivua ja niiden välinen kulma:", "kaava": "c² = a² + b² − 2ab·cos C" },
+      { "otsikko": "Yhdenmuotoisuus", "teksti": "Mittakaava k: pituudet · k, <b>alat · k²</b>, <b>tilavuudet · k³</b>." },
+      { "otsikko": "Kappaleet", "teksti": "Kartio ja pyramidi: V = ⅓ · A<sub>pohja</sub> · h. Pallo: V = ⁴⁄₃πr³, A = 4πr²." },
+      { "otsikko": "Kehäkulmalause", "teksti": "Kehäkulma on puolet samaa kaarta vastaavasta keskuskulmasta. Puoliympyrän kehäkulma on 90° (Thales)." }
+    ],
+    "yleinenVirhe": "Tarkista laskimen kulmayksikkö: <b>DEG</b> (asteet) vai RAD (radiaanit).",
+    "taulukot": "Geometrian kaavat, MAOL-taulukot"
+  },
+  "MAA4": {
+    "otsikko": "Analyyttinen geometria ja vektorit",
+    "osiot": [
+      { "otsikko": "Etäisyys ja keskipiste", "teksti": "Pisteiden välinen etäisyys:", "kaava": "d = √((x₂ − x₁)² + (y₂ − y₁)²)" },
+      { "otsikko": "Suora", "teksti": "Kulmakerroin k = Δy / Δx. Kohtisuorille suorille <b>k₁ · k₂ = −1</b>." },
+      { "otsikko": "Pisteen etäisyys suorasta", "teksti": "Suora ax + by + c = 0, piste (x₀, y₀):", "kaava": "d = |ax₀ + by₀ + c| / √(a² + b²)" },
+      { "otsikko": "Ympyrä", "teksti": "Keskipiste (x₀, y₀), säde r. Täydennä neliöiksi, jos yhtälö on auki kirjoitettu.", "kaava": "(x − x₀)² + (y − y₀)² = r²" },
+      { "otsikko": "Pistetulo", "teksti": "a · b = |a||b| cos α. Vektorit ovat kohtisuorassa, kun <b>a · b = 0</b>." }
+    ],
+    "yleinenVirhe": "Kohtisuoran suoran kulmakerroin on <b>vastaluvun käänteisluku</b>, ei pelkkä vastaluku.",
+    "taulukot": "Analyyttinen geometria ja vektorit, MAOL-taulukot"
+  },
+  "MAA5": {
+    "otsikko": "Funktiot ja yhtälöt 2",
+    "osiot": [
+      { "otsikko": "Yksikköympyrä", "teksti": "sin 30° = ½, cos 60° = ½, tan 45° = 1. 180° = π rad." },
+      { "otsikko": "Trigonometriset yhtälöt", "teksti": "sin x = a: x = α + n·360° tai x = 180° − α + n·360°. Muista toinen ratkaisu!" },
+      { "otsikko": "Logaritmi", "teksti": "Logaritmi on eksponentin käänteistoimitus.", "kaava": "a<sup>x</sup> = b ⇔ x = log<sub>a</sub> b = ln b / ln a" },
+      { "otsikko": "Laskusäännöt", "teksti": "log(ab) = log a + log b, log(a/b) = log a − log b, log(a<sup>n</sup>) = n·log a." },
+      { "otsikko": "Lukujonot", "teksti": "Aritmeettinen: a<sub>n</sub> = a<sub>1</sub> + (n − 1)d, S = n(a<sub>1</sub> + a<sub>n</sub>)/2. Geometrinen: a<sub>n</sub> = a<sub>1</sub>q<sup>n−1</sup>.", "kaava": "S<sub>n</sub> = a<sub>1</sub>(q<sup>n</sup> − 1) / (q − 1)" }
+    ],
+    "yleinenVirhe": "Eristä potenssi yksin ennen logaritmin ottamista: 2 · 3<sup>x</sup> = 18 ⇒ ensin 3<sup>x</sup> = 9.",
+    "taulukot": "Trigonometria ja logaritmit, MAOL-taulukot"
+  },
+  "MAA6": {
+    "otsikko": "Derivaatta",
+    "osiot": [
+      { "otsikko": "Perussäännöt", "teksti": "Jokainen termi derivoidaan erikseen.", "kaava": "D x<sup>n</sup> = n·x<sup>n−1</sup>" },
+      { "otsikko": "Tulo ja osamäärä", "teksti": "D(fg) = f'g + fg'.", "kaava": "D(f/g) = (f'g − fg') / g²" },
+      { "otsikko": "Ketjusääntö", "teksti": "Yhdistetty funktio: ulkofunktion derivaatta kertaa sisäfunktion derivaatta.", "kaava": "D f(g(x)) = f'(g(x)) · g'(x)" },
+      { "otsikko": "Erikoisfunktiot", "teksti": "D e<sup>x</sup> = e<sup>x</sup>, D ln x = 1/x, D sin x = cos x, D cos x = −sin x." },
+      { "otsikko": "Ääriarvot", "teksti": "Etsi derivaatan nollakohdat ja selvitä laatu <b>merkkikaaviolla</b>. Suljetulla välillä vertaa myös päätepisteisiin." }
+    ],
+    "yleinenVirhe": "Kysytäänkö ääriarvo<b>kohtaa</b> (x) vai ääriarvo<b>a</b> f(x)? Lue tehtävä tarkkaan.",
+    "taulukot": "Derivointisäännöt, MAOL-taulukot"
+  },
+  "MAA7": {
+    "otsikko": "Integraalilaskenta",
+    "osiot": [
+      { "otsikko": "Integraalifunktio", "teksti": "Potenssi integroidaan nostamalla eksponenttia yhdellä. Muista vakio C.", "kaava": "∫ x<sup>n</sup> dx = x<sup>n+1</sup> / (n+1) + C" },
+      { "otsikko": "Määrätty integraali", "teksti": "Sijoita ylä- ja alaraja ja vähennä.", "kaava": "∫<sub>a</sub><sup>b</sup> f(x) dx = F(b) − F(a)" },
+      { "otsikko": "Pinta-ala", "teksti": "Kahden käyrän välinen ala: integroi <b>ylempi − alempi</b> leikkauskohtien välillä." },
+      { "otsikko": "Pyörähdyskappale", "teksti": "Kun käyrä y = f(x) pyörähtää x-akselin ympäri:", "kaava": "V = π ∫<sub>a</sub><sup>b</sup> f(x)² dx" }
+    ],
+    "yleinenVirhe": "Integraali ei ole sama kuin pinta-ala, jos funktio saa negatiivisia arvoja. Jaa väli nollakohdissa.",
+    "taulukot": "Integrointikaavat, MAOL-taulukot"
+  },
+  "MAA8": {
+    "otsikko": "Tilastot ja todennäköisyys",
+    "osiot": [
+      { "otsikko": "Klassinen todennäköisyys", "teksti": "P(A) = suotuisat / kaikki (kun tulokset ovat yhtä todennäköisiä)." },
+      { "otsikko": "Vastatapahtuma", "teksti": "\"Ainakin yksi\" lasketaan helpoiten vastatapahtuman kautta.", "kaava": "P(ainakin yksi) = 1 − P(ei yhtään)" },
+      { "otsikko": "Kombinatoriikka", "teksti": "Järjestys merkitsee: n!/(n − k)!. Järjestys ei merkitse:", "kaava": "(n yli k) = n! / (k!(n − k)!)" },
+      { "otsikko": "Binomijakauma", "teksti": "k onnistumista n toistossa:", "kaava": "P = (n yli k) p<sup>k</sup>(1 − p)<sup>n−k</sup>" },
+      { "otsikko": "Tunnusluvut", "teksti": "Keskiarvo, mediaani (keskimmäinen järjestetyssä aineistossa), keskihajonta = √varianssi." }
+    ],
+    "yleinenVirhe": "Nostettaessa <b>ilman takaisinpanoa</b> toisen noston todennäköisyys muuttuu: (5/8)·(4/7), ei (5/8)².",
+    "taulukot": "Todennäköisyys ja tilastot, MAOL-taulukot"
+  },
+  "MAA9": {
+    "otsikko": "Talousmatematiikka",
+    "osiot": [
+      { "otsikko": "Yksinkertainen korko", "teksti": "Korko ei kasva korkoa:", "kaava": "r = k · i · t" },
+      { "otsikko": "Koronkorko ja nykyarvo", "teksti": "Kasvutekijä q = 1 + i.", "kaava": "K<sub>n</sub> = K<sub>0</sub>q<sup>n</sup>, K<sub>0</sub> = K<sub>n</sub> / q<sup>n</sup>" },
+      { "otsikko": "Annuiteetti", "teksti": "Tasaerä, jossa korko + lyhennys on sama joka kerta:", "kaava": "A = K · i / (1 − (1 + i)<sup>−n</sup>)" },
+      { "otsikko": "Tasalyhennys", "teksti": "Lyhennys on sama joka kerta, korko lasketaan jäljellä olevasta lainasta → erät pienenevät." },
+      { "otsikko": "Säännöllinen säästäminen", "teksti": "Talletusten loppuarvo on geometrinen summa." }
+    ],
+    "yleinenVirhe": "Muunna korkokanta samaan jaksoon kuin maksut: kuukausierät ⇒ <b>kuukausikorko</b>.",
+    "taulukot": "Talousmatematiikan kaavat, MAOL-taulukot"
+  },
+  "MAA10": {
+    "otsikko": "3D-geometria",
+    "osiot": [
+      { "otsikko": "Vektorit avaruudessa", "teksti": "a = xi + yj + zk, |a| = √(x² + y² + z²)." },
+      { "otsikko": "Ristitulo", "teksti": "a × b on kohtisuorassa molempia vastaan. |a × b| = suunnikkaan ala.", "kaava": "Kolmion ala = ½ |AB × AC|" },
+      { "otsikko": "Suora", "teksti": "Piste P₀ ja suuntavektori s:", "kaava": "(x, y, z) = P₀ + t·s" },
+      { "otsikko": "Taso", "teksti": "Normaalivektori n = ai + bj + ck.", "kaava": "ax + by + cz + d = 0" },
+      { "otsikko": "Pisteen etäisyys tasosta", "teksti": "", "kaava": "d = |ax₀ + by₀ + cz₀ + d| / √(a² + b² + c²)" }
+    ],
+    "yleinenVirhe": "Tasojen välinen kulma lasketaan <b>normaalivektorien</b> välisenä kulmana (terävä kulma).",
+    "taulukot": "Vektorit avaruudessa, MAOL-taulukot"
+  },
+  "MAA11": {
+    "otsikko": "Algoritmit ja lukuteoria",
+    "osiot": [
+      { "otsikko": "Eukleideen algoritmi", "teksti": "syt(a, b) = syt(b, a mod b). Jatka, kunnes jakojäännös on 0." },
+      { "otsikko": "syt ja pyj", "teksti": "Alkutekijöistä: syt = pienimmät potenssit, pyj = suurimmat potenssit.", "kaava": "syt(a, b) · pyj(a, b) = a · b" },
+      { "otsikko": "Kongruenssi", "teksti": "a ≡ b (mod n) ⇔ n jakaa a − b. Potensseissa etsi jakso, jolla jakojäännös on 1." },
+      { "otsikko": "Tekijöiden määrä", "teksti": "Jos n = p<sup>a</sup>q<sup>b</sup>, tekijöitä on (a + 1)(b + 1)." },
+      { "otsikko": "Lukujärjestelmät", "teksti": "Binääri: paikkaluvut 1, 2, 4, 8, 16, 32, …" }
+    ],
+    "yleinenVirhe": "Algoritmia seuratessa kirjoita muuttujien arvot taulukkoon kierros kierrokselta. Älä laske päässä."
+  },
+  "MAA12": {
+    "otsikko": "Analyysi ja jatkuva jakauma",
+    "osiot": [
+      { "otsikko": "Raja-arvo", "teksti": "0/0-muodossa sievennä (jaa tekijöihin). Äärettömyydessä jaa korkeimmalla potenssilla." },
+      { "otsikko": "Osittaisintegrointi", "teksti": "", "kaava": "∫ f g' dx = f g − ∫ f' g dx" },
+      { "otsikko": "Tiheysfunktio", "teksti": "f(x) ≥ 0 ja kokonaisala 1.", "kaava": "P(a < X < b) = ∫<sub>a</sub><sup>b</sup> f(x) dx" },
+      { "otsikko": "Odotusarvo", "teksti": "", "kaava": "E(X) = ∫ x f(x) dx" },
+      { "otsikko": "Normaalijakauma", "teksti": "Standardoi ja katso Φ taulukosta.", "kaava": "z = (x − μ) / σ" }
+    ],
+    "yleinenVirhe": "Jatkuvalla jakaumalla P(X = a) = 0, joten P(X < a) = P(X ≤ a).",
+    "taulukot": "Normaalijakauman taulukko, MAOL-taulukot"
+  }
+}

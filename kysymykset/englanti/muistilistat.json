@@ -1,0 +1,27 @@
+{
+  "conditionals": {
+    "otsikko": "Conditional sentences",
+    "osiot": [
+      { "otsikko": "First conditional", "teksti": "A real, possible future situation.", "kaava": "if + present, will + verb" },
+      { "otsikko": "Second conditional", "teksti": "An imaginary or unlikely situation now or in the future.", "kaava": "if + past, would + verb" },
+      { "otsikko": "Third conditional", "teksti": "An imaginary situation in the past.", "kaava": "if + had + V3, would have + V3" }
+    ],
+    "yleinenVirhe": "Never put <i>would</i> in the <i>if</i>-clause: ✗ \"If I would have…\" ✓ \"If I had…\""
+  },
+  "vocabulary": {
+    "otsikko": "Learning vocabulary",
+    "osiot": [
+      { "otsikko": "Use the context", "teksti": "Read the whole sentence. Is the word positive or negative? What would make sense?" },
+      { "otsikko": "Word families", "teksti": "Learn related forms together: <b>reluctant</b> (adj.) – <b>reluctance</b> (n.) – <b>reluctantly</b> (adv.)." }
+    ],
+    "yleinenVirhe": "Watch out for words that look similar: <i>relieved</i> ≠ <i>reluctant</i>."
+  },
+  "irregular": {
+    "otsikko": "Irregular verbs",
+    "osiot": [
+      { "otsikko": "-ought / -aught", "teksti": "buy – bought, bring – brought, think – thought, seek – sought, teach – taught, catch – caught." },
+      { "otsikko": "Same in all forms", "teksti": "cut – cut – cut, put – put – put, let – let – let." }
+    ],
+    "yleinenVirhe": "Don't add -ed to irregular verbs: ✗ \"seeked\" ✓ \"sought\"."
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ällä – ylioppilaskokeisiin harjoittelu</title>
+  <!-- KaTeX piirtää LaTeX-kaavat (kirjasto on omassa kansiossa lib/katex, toimii ilman nettiä) -->
+  <link rel="stylesheet" href="lib/katex/katex.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== VASEN SIVUPALKKI (left sidebar) ===== -->
+  <nav class="sivupalkki" aria-label="Aineet">
+    <a class="logo" href="#/" title="Etusivu">Ällä</a>
+
+    <a class="aine-linkki" href="#/edistys" data-reitti="edistys">
+      <span class="ikoni">
+        <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M6 15l4-5 4 3 5-7"/></svg>
+      </span>
+      <span class="nimi">EDISTYS</span>
+    </a>
+
+    <div class="erotin"></div>
+
+    <!-- Aineiden linkit luodaan JavaScriptillä tiedostosta kysymykset/aineet.json -->
+    <div id="aine-linkit"></div>
+  </nav>
+
+  <!-- ===== PÄÄALUE (main area) ===== -->
+  <div class="paaalue">
+    <header class="ylapalkki">
+      <div class="murupolku" id="murupolku"></div>
+
+      <div class="asetukset">
+        <button class="asetus-nappi" id="asetus-nappi" aria-label="Asetukset" aria-expanded="false">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+        </button>
+        <div class="asetus-valikko" id="asetus-valikko" hidden>
+          <label class="asetus-rivi">
+            <input type="checkbox" id="asetus-muistilista" checked>
+            <span>Näytä muistilista</span>
+          </label>
+          <button class="asetus-toiminto" id="asetus-vie">Lataa edistys tiedostona</button>
+          <button class="asetus-toiminto vaara" id="asetus-nollaa">Nollaa edistys</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sisältö vaihtuu sivun mukaan (app.js piirtää tämän) -->
+    <main id="sisalto" class="sisalto"></main>
+  </div>
+
+  <!-- Skriptien järjestyksellä on väliä: app.js käyttää muiden tiedostojen funktioita -->
+  <!-- Lataa omat fontit kansiosta fonts/ (katso fonts/LUE_MINUT.md) -->
+  <script src="js/fontit.js"></script>
+  <script src="lib/katex/katex.min.js"></script>
+  <script src="js/tekstit.js"></script>
+  <script src="js/kaavaeditori.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/seuranta.js"></script>
+  <script src="js/kaavio.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+{
+  "kurssi": "MAA10",
+  "kysymykset": [
+    {
+      "id": "maa10-harj-01",
+      "numero": "1",
+      "aihe": "Pisteiden etäisyys avaruudessa",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Laske</b> pisteiden (1, 2, 3) ja (4, 6, 15) välinen etäisyys."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 13,
+        "toleranssi": 0.01,
+        "esimerkki": "10"
+      },
+      "ratkaisu": [
+        "d = √(3² + 4² + 12²) = √169 = <b>13</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-02",
+      "numero": "2",
+      "aihe": "Vektorin pituus",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Laske</b> vektorin 2<b>i</b> − <b>j</b> + 2<b>k</b> pituus."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 3,
+        "toleranssi": 0.01,
+        "esimerkki": "5"
+      },
+      "ratkaisu": [
+        "|a| = √(4 + 1 + 4) = √9 = <b>3</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-03",
+      "numero": "3",
+      "aihe": "Pistetulo",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Laske</b> vektorien <b>i</b> + 2<b>j</b> + 3<b>k</b> ja 4<b>i</b> − 5<b>j</b> + 6<b>k</b> pistetulo."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 12,
+        "toleranssi": 0.01,
+        "esimerkki": "32"
+      },
+      "ratkaisu": [
+        "4 − 10 + 18 = <b>12</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-04",
+      "numero": "4",
+      "aihe": "Ristitulo ja suunnikkaan ala",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Laske</b> vektorien <b>a</b> = <b>i</b> + 2<b>j</b> ja <b>b</b> = 3<b>i</b> + <b>j</b> virittämän suunnikkaan pinta-ala."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 5,
+        "toleranssi": 0.01,
+        "esimerkki": "7"
+      },
+      "ratkaisu": [
+        "a × b = (1·1 − 2·3)k = −5k.",
+        "Ala = |a × b| = <b>5</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-05",
+      "numero": "5",
+      "aihe": "Vektorien välinen kulma",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Laske</b> vektorien <b>i</b> + <b>j</b> ja <b>i</b> + <b>k</b> välinen kulma."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 60,
+        "toleranssi": 0.1,
+        "yksikko": "°",
+        "esimerkki": "45"
+      },
+      "ratkaisu": [
+        "cos α = 1 / (√2 · √2) = ½.",
+        "α = <b>60°</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-06",
+      "numero": "6",
+      "aihe": "Suoran parametriesitys",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "Suora kulkee pisteen (1, 2, 3) kautta suuntavektorina 2<b>i</b> − <b>j</b> + <b>k</b>.",
+        "<b>Mikä suoran piste saadaan parametrin arvolla t = 2?</b> Anna muodossa x; y; z."
+      ],
+      "vastaus": {
+        "tyyppi": "numerot",
+        "oikeat": [
+          5,
+          0,
+          5
+        ],
+        "toleranssi": 0.01,
+        "jarjestys": true,
+        "esimerkki": "1; 2; 3"
+      },
+      "ratkaisu": [
+        "(x, y, z) = (1, 2, 3) + t(2, −1, 1).",
+        "t = 2: (1 + 4, 2 − 2, 3 + 2) = <b>(5, 0, 5)</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-07",
+      "numero": "7",
+      "aihe": "Tason etäisyys origosta",
+      "pisteet": 12,
+      "muistilista": "MAA10",
+      "teksti": [
+        "Taso kulkee pisteiden (1, 0, 0), (0, 2, 0) ja (0, 0, 3) kautta. <b>Laske tason etäisyys origosta</b> (kolmen desimaalin tarkkuudella)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.857143,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "Tason yhtälö x/1 + y/2 + z/3 = 1 eli 6x + 3y + 2z − 6 = 0.",
+        "d = |−6| / √(36 + 9 + 4) = 6/7 ≈ <b>0,857</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-08",
+      "numero": "8",
+      "aihe": "Pisteen etäisyys tasosta",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Laske</b> pisteen (1, 2, 2) etäisyys tasosta 2x + y + 2z − 3 = 0."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1.666667,
+        "toleranssi": 0.005,
+        "desimaalit": 2,
+        "esimerkki": "1,00"
+      },
+      "ratkaisu": [
+        "d = |2 + 2 + 4 − 3| / √(4 + 1 + 4) = 5 / 3.",
+        "d ≈ <b>1,67</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-09",
+      "numero": "9",
+      "aihe": "Suoran ja tason leikkauspiste",
+      "pisteet": 12,
+      "muistilista": "MAA10",
+      "teksti": [
+        "Suora x = 1 + t, y = 2t, z = 3 − t leikkaa tason x + y + z = 10.",
+        "<b>Määritä leikkauspiste</b> muodossa x; y; z."
+      ],
+      "vastaus": {
+        "tyyppi": "numerot",
+        "oikeat": [
+          4,
+          6,
+          0
+        ],
+        "toleranssi": 0.01,
+        "jarjestys": true,
+        "esimerkki": "1; 2; 3"
+      },
+      "ratkaisu": [
+        "Sijoitetaan: (1 + t) + 2t + (3 − t) = 10 ⇒ 4 + 2t = 10 ⇒ t = 3.",
+        "Piste (4, 6, 0)."
+      ]
+    },
+    {
+      "id": "maa10-harj-10",
+      "numero": "10",
+      "aihe": "Kohtisuorat vektorit",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "Millä t:n arvolla vektorit <b>i</b> + t<b>j</b> + 2<b>k</b> ja 3<b>i</b> + <b>j</b> − 2<b>k</b> ovat kohtisuorassa?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Pistetulo 3 + t − 4 = 0.",
+        "t = <b>1</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-11",
+      "numero": "11",
+      "aihe": "Tason normaalivektori",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Mikä seuraavista on tason 2x − y + 3z = 7 normaalivektori?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "valinta",
+        "vaihtoehdot": [
+          "2i − j + 3k",
+          "2i + j + 3k",
+          "i − 2j + 7k",
+          "7i + 7j + 7k"
+        ],
+        "oikea": 0
+      },
+      "ratkaisu": [
+        "Tason ax + by + cz = d normaalivektori on <b>n = ai + bj + ck</b>.",
+        "Tässä n = 2i − j + 3k."
+      ]
+    },
+    {
+      "id": "maa10-harj-12",
+      "numero": "12",
+      "aihe": "Tasojen välinen kulma",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Laske</b> tasojen x + y = 1 ja y + z = 1 välinen kulma."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 60,
+        "toleranssi": 0.1,
+        "yksikko": "°",
+        "esimerkki": "45"
+      },
+      "ratkaisu": [
+        "Normaalit (1, 1, 0) ja (0, 1, 1). cos α = 1 / (√2 · √2) = ½.",
+        "α = <b>60°</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-13",
+      "numero": "13",
+      "aihe": "Janan keskipiste avaruudessa",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "<b>Määritä</b> pisteiden (2, −4, 6) ja (4, 0, −2) välisen janan keskipiste muodossa x; y; z."
+      ],
+      "vastaus": {
+        "tyyppi": "numerot",
+        "oikeat": [
+          3,
+          -2,
+          2
+        ],
+        "toleranssi": 0.01,
+        "jarjestys": true,
+        "esimerkki": "1; 2; 3"
+      },
+      "ratkaisu": [
+        "Koordinaattien keskiarvot: (3, −2, 2)."
+      ]
+    },
+    {
+      "id": "maa10-harj-14",
+      "numero": "14",
+      "aihe": "Kolmion ala avaruudessa",
+      "pisteet": 12,
+      "muistilista": "MAA10",
+      "teksti": [
+        "Kolmion kärjet ovat A(0, 0, 0), B(2, 0, 0) ja C(0, 3, 4). <b>Laske kolmion pinta-ala.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 5,
+        "toleranssi": 0.01,
+        "esimerkki": "6"
+      },
+      "ratkaisu": [
+        "AB × AC = (2, 0, 0) × (0, 3, 4) = (0, −8, 6).",
+        "|AB × AC| = 10, joten ala = ½ · 10 = <b>5</b>."
+      ]
+    },
+    {
+      "id": "maa10-harj-15",
+      "numero": "15",
+      "aihe": "Suuntaissärmiön tilavuus",
+      "pisteet": 6,
+      "muistilista": "MAA10",
+      "teksti": [
+        "Vektorit <b>a</b> = (1, 0, 0), <b>b</b> = (1, 2, 0) ja <b>c</b> = (1, 1, 3) virittävät suuntaissärmiön. <b>Laske sen tilavuus.</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 6,
+        "toleranssi": 0.01,
+        "esimerkki": "4"
+      },
+      "ratkaisu": [
+        "V = |a · (b × c)|. b × c = (2·3 − 0·1, 0·1 − 1·3, 1·1 − 2·1) = (6, −3, −1).",
+        "a · (b × c) = 6, joten V = <b>6</b>."
+      ]
+    }
+  ]
+}

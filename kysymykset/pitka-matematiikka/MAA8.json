@@ -1,0 +1,308 @@
+{
+  "kurssi": "MAA8",
+  "kysymykset": [
+    {
+      "id": "maa8-harj-01",
+      "numero": "1",
+      "aihe": "Klassinen todennäköisyys",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Heitetään noppaa kerran. <b>Millä todennäköisyydellä silmäluku on vähintään 5?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.333333,
+        "toleranssi": 0.005,
+        "desimaalit": 3,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "Suotuisat: 5 ja 6, eli 2 / 6.",
+        "P = 1/3 ≈ <b>0,333</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-02",
+      "numero": "2",
+      "aihe": "Kaksi noppaa",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Heitetään kahta noppaa. <b>Millä todennäköisyydellä silmälukujen summa on 7?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.166667,
+        "toleranssi": 0.005,
+        "desimaalit": 3,
+        "esimerkki": "0,1"
+      },
+      "ratkaisu": [
+        "Kaikkiaan 36 yhtä todennäköistä tulosta.",
+        "Summa 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 kpl.",
+        "P = 6/36 = 1/6 ≈ <b>0,167</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-03",
+      "numero": "3",
+      "aihe": "Kertolaskusääntö",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Rahaa heitetään kolme kertaa. <b>Millä todennäköisyydellä saadaan kolme kruunaa?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.125,
+        "toleranssi": 0.001,
+        "esimerkki": "0,25"
+      },
+      "ratkaisu": [
+        "(½)<sup>3</sup> = 1/8 = <b>0,125</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-04",
+      "numero": "4",
+      "aihe": "Vastatapahtuma",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Noppaa heitetään neljä kertaa. <b>Millä todennäköisyydellä saadaan ainakin yksi kuutonen?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.517747,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "Vastatapahtuma: ei yhtään kuutosta, P = (5/6)<sup>4</sup>.",
+        "P = 1 − (5/6)<sup>4</sup> ≈ <b>0,518</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-05",
+      "numero": "5",
+      "aihe": "Keskiarvo",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "<b>Laske</b> aineiston 4, 7, 7, 9, 13 keskiarvo."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 8,
+        "toleranssi": 0.01,
+        "esimerkki": "7"
+      },
+      "ratkaisu": [
+        "(4 + 7 + 7 + 9 + 13) / 5 = 40 / 5 = <b>8</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-06",
+      "numero": "6",
+      "aihe": "Mediaani",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "<b>Määritä</b> aineiston 3, 8, 1, 9, 5, 6 mediaani."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 5.5,
+        "toleranssi": 0.01,
+        "esimerkki": "6"
+      },
+      "ratkaisu": [
+        "Järjestetään: 1, 3, 5, 6, 8, 9.",
+        "Parillinen määrä havaintoja: mediaani = (5 + 6) / 2 = <b>5,5</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-07",
+      "numero": "7",
+      "aihe": "Keskihajonta",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "<b>Laske</b> aineiston 2, 4, 4, 4, 5, 5, 7, 9 keskihajonta, kun aineisto on koko perusjoukko."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 2.0,
+        "toleranssi": 0.01,
+        "esimerkki": "1,5"
+      },
+      "ratkaisu": [
+        "Keskiarvo 40 / 8 = 5.",
+        "Poikkeamien neliöt: 9, 1, 1, 1, 0, 0, 4, 16, summa 32. Varianssi 32 / 8 = 4.",
+        "Keskihajonta √4 = <b>2</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-08",
+      "numero": "8",
+      "aihe": "Kombinaatiot",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "<b>Monellako tavalla</b> 10 hengen joukosta voidaan valita 3 hengen ryhmä?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 120,
+        "toleranssi": 0.01,
+        "esimerkki": "720"
+      },
+      "ratkaisu": [
+        "Järjestyksellä ei ole väliä: (10 yli 3) = 10! / (3! · 7!) = <b>120</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-09",
+      "numero": "9",
+      "aihe": "Permutaatiot",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "8 hengen yhdistyksestä valitaan puheenjohtaja ja sihteeri. <b>Monellako tavalla valinta voidaan tehdä?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 56,
+        "toleranssi": 0.01,
+        "esimerkki": "28"
+      },
+      "ratkaisu": [
+        "Järjestyksellä on väliä (eri tehtävät): 8 · 7 = <b>56</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-10",
+      "numero": "10",
+      "aihe": "Binomitodennäköisyys",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Rahaa heitetään 10 kertaa. <b>Millä todennäköisyydellä saadaan täsmälleen 3 kruunaa?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.117188,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,25"
+      },
+      "ratkaisu": [
+        "P = (10 yli 3) · (½)<sup>3</sup> · (½)<sup>7</sup> = 120 / 1024.",
+        "P ≈ <b>0,117</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-11",
+      "numero": "11",
+      "aihe": "Nostaminen ilman takaisinpanoa",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Uurnassa on 5 punaista ja 3 sinistä palloa. Nostetaan kaksi palloa ilman takaisinpanoa. <b>Millä todennäköisyydellä molemmat ovat punaisia?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.357143,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,4"
+      },
+      "ratkaisu": [
+        "P = (5/8) · (4/7) = 20/56 = 5/14.",
+        "P ≈ <b>0,357</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-12",
+      "numero": "12",
+      "aihe": "Ehdollinen todennäköisyys",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "P(A) = 0,4 ja P(B | A) = 0,5. <b>Laske P(A ja B).</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.2,
+        "toleranssi": 0.01,
+        "esimerkki": "0,9"
+      },
+      "ratkaisu": [
+        "P(A ∩ B) = P(A) · P(B | A) = 0,4 · 0,5 = <b>0,2</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-13",
+      "numero": "13",
+      "aihe": "Odotusarvo",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Arpa maksaa 2 €. Arvalla voittaa 10 € todennäköisyydellä 0,1, muuten ei mitään. <b>Mikä on pelaajan voiton odotusarvo yhdellä arvalla?</b> (Huomioi arvan hinta.)"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": -1,
+        "toleranssi": 0.01,
+        "yksikko": "€",
+        "esimerkki": "0,5"
+      },
+      "ratkaisu": [
+        "Voiton odotusarvo: 0,1 · 10 € = 1 €.",
+        "Nettovoitto: 1 € − 2 € = <b>−1 €</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-14",
+      "numero": "14",
+      "aihe": "Lotto",
+      "pisteet": 6,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Lotossa arvotaan 7 numeroa 40:stä. <b>Kuinka monta erilaista lottoriviä on olemassa?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 18643560,
+        "toleranssi": 0.5,
+        "esimerkki": "1 000 000"
+      },
+      "ratkaisu": [
+        "(40 yli 7) = 40! / (7! · 33!) = <b>18 643 560</b>."
+      ]
+    },
+    {
+      "id": "maa8-harj-15",
+      "numero": "15",
+      "aihe": "Binomijakauma",
+      "pisteet": 12,
+      "muistilista": "MAA8",
+      "teksti": [
+        "Noppaa heitetään viisi kertaa. <b>Millä todennäköisyydellä saadaan täsmälleen kaksi kuutosta?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 0.160751,
+        "toleranssi": 0.002,
+        "desimaalit": 3,
+        "esimerkki": "0,2"
+      },
+      "ratkaisu": [
+        "P = (5 yli 2) · (1/6)<sup>2</sup> · (5/6)<sup>3</sup> = 10 · 125 / 7 776.",
+        "P ≈ <b>0,161</b>."
+      ]
+    }
+  ]
+}

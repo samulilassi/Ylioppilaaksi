@@ -1,0 +1,310 @@
+{
+  "kurssi": "MAA11",
+  "kysymykset": [
+    {
+      "id": "maa11-harj-01",
+      "numero": "1",
+      "aihe": "Suurin yhteinen tekijä",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Määritä</b> syt(84, 120)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 12,
+        "toleranssi": 0.01,
+        "esimerkki": "6"
+      },
+      "ratkaisu": [
+        "Eukleideen algoritmi: 120 = 1 · 84 + 36, 84 = 2 · 36 + 12, 36 = 3 · 12 + 0.",
+        "syt = <b>12</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-02",
+      "numero": "2",
+      "aihe": "Pienin yhteinen jaettava",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Määritä</b> pyj(12, 18)."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 36,
+        "toleranssi": 0.01,
+        "esimerkki": "72"
+      },
+      "ratkaisu": [
+        "12 = 2² · 3, 18 = 2 · 3².",
+        "pyj = 2² · 3² = <b>36</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-03",
+      "numero": "3",
+      "aihe": "Jakojäännös",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Mikä on</b> luvun 2<sup>10</sup> jakojäännös, kun se jaetaan luvulla 7?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 2,
+        "toleranssi": 0.01,
+        "esimerkki": "3"
+      },
+      "ratkaisu": [
+        "2³ = 8 ≡ 1 (mod 7).",
+        "2<sup>10</sup> = (2³)³ · 2 ≡ 1 · 2 = <b>2</b> (mod 7)."
+      ]
+    },
+    {
+      "id": "maa11-harj-04",
+      "numero": "4",
+      "aihe": "Kongruenssi ja potenssi",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Mikä on</b> luvun 17<sup>100</sup> jakojäännös jaettaessa luvulla 5?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 1,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "17 ≡ 2 (mod 5) ja 2<sup>4</sup> = 16 ≡ 1 (mod 5).",
+        "17<sup>100</sup> ≡ 2<sup>100</sup> = (2<sup>4</sup>)<sup>25</sup> ≡ <b>1</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-05",
+      "numero": "5",
+      "aihe": "Alkulukutekijät",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Mikä on</b> luvun 221 pienin alkutekijä?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 13,
+        "toleranssi": 0.01,
+        "esimerkki": "7"
+      },
+      "ratkaisu": [
+        "Kokeillaan alkulukuja: 221 ei ole jaollinen luvuilla 2, 3, 5, 7, 11.",
+        "221 = <b>13</b> · 17."
+      ]
+    },
+    {
+      "id": "maa11-harj-06",
+      "numero": "6",
+      "aihe": "Tekijöiden lukumäärä",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Kuinka monta</b> positiivista tekijää luvulla 72 on?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 12,
+        "toleranssi": 0.01,
+        "esimerkki": "10"
+      },
+      "ratkaisu": [
+        "72 = 2³ · 3².",
+        "Tekijöitä (3 + 1)(2 + 1) = <b>12</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-07",
+      "numero": "7",
+      "aihe": "Lineaarinen kongruenssi",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Ratkaise</b> 3x ≡ 4 (mod 7), kun 0 ≤ x < 7."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 6,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "3:n käänteisluku mod 7 on 5, koska 3 · 5 = 15 ≡ 1.",
+        "x ≡ 4 · 5 = 20 ≡ <b>6</b> (mod 7)."
+      ]
+    },
+    {
+      "id": "maa11-harj-08",
+      "numero": "8",
+      "aihe": "Binääriluvut",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Muunna</b> binääriluku 101101<sub>2</sub> kymmenjärjestelmään."
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 45,
+        "toleranssi": 0.01,
+        "esimerkki": "40"
+      },
+      "ratkaisu": [
+        "32 + 0 + 8 + 4 + 0 + 1 = <b>45</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-09",
+      "numero": "9",
+      "aihe": "Binääriesitys",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Kuinka monta ykköstä</b> on luvun 2026 binääriesityksessä?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 8,
+        "toleranssi": 0.01,
+        "esimerkki": "5"
+      },
+      "ratkaisu": [
+        "2026 = 11111101010<sub>2</sub>.",
+        "Ykkösiä on <b>8</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-10",
+      "numero": "10",
+      "aihe": "Algoritmin seuraaminen",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Mikä on</b> muuttujan s arvo algoritmin lopussa?",
+        "<code>s = 0<br>kun i = 1, 2, …, 10:<br>&nbsp;&nbsp;jos i on pariton: s = s + i</code>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 25,
+        "toleranssi": 0.01,
+        "esimerkki": "55"
+      },
+      "ratkaisu": [
+        "Parittomat luvut 1, 3, 5, 7, 9.",
+        "1 + 3 + 5 + 7 + 9 = <b>25</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-11",
+      "numero": "11",
+      "aihe": "Viimeinen numero",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Mikä on</b> luvun 7<sup>2026</sup> viimeinen numero?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 9,
+        "toleranssi": 0.01,
+        "esimerkki": "7"
+      },
+      "ratkaisu": [
+        "Potenssien viimeiset numerot toistuvat jaksolla 7, 9, 3, 1 (jakso 4).",
+        "2026 = 4 · 506 + 2, joten viimeinen numero on sama kuin luvussa 7² = 49: <b>9</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-12",
+      "numero": "12",
+      "aihe": "Diofantoksen yhtälö",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "Yhtälöllä 7x + 5y = 1 on kokonaislukuratkaisuja. <b>Mikä on pienin positiivinen x</b>, jolle löytyy kokonaisluku y?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 3,
+        "toleranssi": 0.01,
+        "esimerkki": "2"
+      },
+      "ratkaisu": [
+        "Kokeillaan: 7 · 3 = 21 ja 21 − 1 = 20 = 5 · 4.",
+        "x = <b>3</b>, y = −4."
+      ]
+    },
+    {
+      "id": "maa11-harj-13",
+      "numero": "13",
+      "aihe": "Jaollisuus yhdeksällä",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "Nelinumeroinen luku 4a72 on jaollinen yhdeksällä. <b>Mikä numero a on?</b>"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 5,
+        "toleranssi": 0.01,
+        "esimerkki": "3"
+      },
+      "ratkaisu": [
+        "Luku on jaollinen 9:llä, jos numeroiden summa on: 4 + a + 7 + 2 = 13 + a.",
+        "13 + a = 18 ⇒ a = <b>5</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-14",
+      "numero": "14",
+      "aihe": "Collatzin algoritmi",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "Algoritmi: <i>niin kauan kuin n > 1: jos n on parillinen, n = n/2, muuten n = 3n + 1</i>.",
+        "<b>Montako askelta</b> tarvitaan, kun aloitetaan luvusta n = 6?"
+      ],
+      "vastaus": {
+        "tyyppi": "numero",
+        "oikea": 8,
+        "toleranssi": 0.01,
+        "esimerkki": "6"
+      },
+      "ratkaisu": [
+        "6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1.",
+        "Askelia on <b>8</b>."
+      ]
+    },
+    {
+      "id": "maa11-harj-15",
+      "numero": "15",
+      "aihe": "Kongruenssin määritelmä",
+      "pisteet": 6,
+      "muistilista": "MAA11",
+      "teksti": [
+        "<b>Mitä tarkoittaa</b> a ≡ b (mod n)?"
+      ],
+      "vastaus": {
+        "tyyppi": "valinta",
+        "vaihtoehdot": [
+          "a ja b ovat molemmat jaollisia luvulla n",
+          "n jakaa erotuksen a − b",
+          "a · b on jaollinen luvulla n",
+          "a = b + n"
+        ],
+        "oikea": 1
+      },
+      "ratkaisu": [
+        "a ≡ b (mod n) tarkoittaa, että a:lla ja b:llä on sama jakojäännös n:llä jaettaessa,",
+        "eli <b>n jakaa erotuksen a − b</b>."
+      ]
+    }
+  ]
+}

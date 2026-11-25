@@ -1,0 +1,500 @@
+/* =========================================================
+   Ällä – tyylit
+   Väripaletti (katso DESIGN.md). Käytä vain näitä muuttujia,
+   älä kirjoita värikoodeja suoraan alempana oleviin sääntöihin.
+   ========================================================= */
+:root {
+  --syva: #003135;       /* tummin: sivupalkki, teksti, päänapit */
+  --petrooli: #024950;   /* tumma: muistilista, turkoosi teksti vaalealla */
+  --tiili: #964734;      /* korostus: pisteet, virheet, varoitukset */
+  --turkoosi: #0FA4AF;   /* kirkas: aktiivinen, kaavio, oikein */
+  --jaa: #AFDDE5;        /* vaalea: pehmeät taustat */
+
+  /* Vastauksen tilavärit (paletin ulkopuolelta, vain tuloksiin) */
+  --vihrea: #2E7D4F;     /* oikein */
+  --keltainen: #E0AE2E;  /* osittain oikein / kesken */
+  --punainen: #B3261E;   /* väärin */
+  --vihrea-tausta: rgba(46, 125, 79, 0.10);
+  --keltainen-tausta: rgba(224, 174, 46, 0.16);
+  --punainen-tausta: rgba(179, 38, 30, 0.08);
+  --valkoinen: #FFFFFF;
+
+  /* Johdetut sävyt (samoista väreistä, vain läpinäkyvyyttä) */
+  --tausta: #EEF7F9;                         /* sivun tausta: hyvin vaalea jää */
+  --jaa-pehmea: rgba(175, 221, 229, 0.35);
+  --reuna: rgba(2, 73, 80, 0.14);
+  --teksti: var(--syva);
+  --teksti-hento: rgba(0, 49, 53, 0.68);
+
+  --pyoristys: 18px;
+  --varjo: 0 1px 2px rgba(0, 49, 53, 0.06), 0 8px 24px rgba(0, 49, 53, 0.06);
+  /* Fontit: "Alla …"-fontit ladataan kansiosta fonts/ (js/fontit.js).
+     Jos tiedostoa ei ole, käytetään listan seuraavaa fonttia. */
+  --fontti: "Alla Teksti", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  --fontti-otsikko: "Alla Otsikko", "Alla Teksti", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  --fontti-koodi: "Alla Koodi", Consolas, "Courier New", monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--fontti);
+  color: var(--teksti);
+  background: var(--tausta);
+  display: flex;
+  min-height: 100vh;
+  line-height: 1.55;
+}
+
+/* Otsikot käyttävät otsikkofonttia (jos sitä ei ole, tekstifonttia) */
+h1, h2, h3, .tehtava-numero, .tehtava-tunnus span, .tunnusluku b, .aine-kortti b,
+.kurssi-linkki b, .muistilista-otsake b, .tulos-banneri .otsikko, .logo {
+  font-family: var(--fontti-otsikko);
+}
+
+svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- Sivupalkki ---------- */
+.sivupalkki {
+  width: 84px;
+  flex-shrink: 0;
+  background: var(--syva);
+  color: var(--jaa);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+  gap: 4px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  align-self: flex-start;
+  overflow-y: auto;
+}
+
+.logo {
+  width: 46px; height: 46px;
+  border-radius: 12px;
+  background: var(--turkoosi);
+  color: var(--syva);
+  font-weight: 800;
+  font-size: 15px;
+  display: grid; place-items: center;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+
+.erotin { width: 40px; height: 1px; background: rgba(175, 221, 229, 0.2); margin: 8px 0; }
+
+#aine-linkit { display: flex; flex-direction: column; gap: 4px; align-items: center; }
+
+.aine-linkki {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 4px;
+  width: 72px;
+  padding: 6px 0;
+  color: var(--jaa);
+  text-decoration: none;
+  border-radius: 12px;
+}
+.aine-linkki .ikoni {
+  width: 40px; height: 40px;
+  border-radius: 11px;
+  display: grid; place-items: center;
+  border: 1px solid rgba(175, 221, 229, 0.18);
+  transition: background .15s, color .15s;
+}
+.aine-linkki .ikoni svg { width: 21px; height: 21px; }
+.aine-linkki .nimi { font-size: 10.5px; font-weight: 600; letter-spacing: .06em; }
+.aine-linkki:hover .ikoni { background: var(--petrooli); }
+.aine-linkki.aktiivinen .ikoni { background: var(--turkoosi); color: var(--syva); border-color: var(--turkoosi); }
+.aine-linkki.aktiivinen .nimi { color: var(--valkoinen); }
+.aine-linkki:focus-visible { outline: 2px solid var(--turkoosi); outline-offset: 2px; }
+
+/* ---------- Yläpalkki ---------- */
+.paaalue { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+
+.ylapalkki {
+  height: 56px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 28px;
+  background: var(--valkoinen);
+  border-bottom: 1px solid var(--reuna);
+}
+.murupolku { font-size: 13px; color: var(--teksti-hento); display: flex; gap: 8px; align-items: center; }
+.murupolku b { color: var(--syva); }
+.murupolku .vali { opacity: .5; }
+
+.asetukset { position: relative; }
+.asetus-nappi {
+  width: 38px; height: 38px; border-radius: 10px;
+  border: none; background: transparent; color: var(--syva);
+  display: grid; place-items: center; cursor: pointer;
+}
+.asetus-nappi:hover { background: var(--jaa-pehmea); }
+.asetus-nappi svg { width: 21px; height: 21px; }
+.asetus-valikko {
+  position: absolute; right: 0; top: 46px; z-index: 20;
+  width: 250px;
+  background: var(--valkoinen);
+  border: 1px solid var(--reuna);
+  border-radius: 14px;
+  box-shadow: var(--varjo);
+  padding: 8px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.asetus-valikko[hidden] { display: none; }
+.asetus-rivi, .asetus-toiminto {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 10px; border-radius: 9px;
+  font: inherit; font-size: 14px; color: var(--syva);
+  background: none; border: none; text-align: left; cursor: pointer;
+}
+.asetus-rivi:hover, .asetus-toiminto:hover { background: var(--jaa-pehmea); }
+.asetus-toiminto.vaara { color: var(--tiili); }
+.asetus-toiminto.vahvista { background: var(--tiili); color: var(--valkoinen); }
+
+/* ---------- Sisältöruudukko ---------- */
+.sisalto { padding: 26px 28px 48px; }
+
+.ruudukko {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 24px;
+  max-width: 1180px;
+}
+.ruudukko.ilman-muistilistaa { grid-template-columns: minmax(0, 1fr); max-width: 860px; }
+.paasarake, .sivusarake { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+
+.kortti {
+  background: var(--valkoinen);
+  border-radius: var(--pyoristys);
+  box-shadow: var(--varjo);
+  overflow: hidden;
+}
+
+/* ---------- Tehtäväkortti ---------- */
+.tehtava-otsake {
+  background: var(--syva);
+  color: var(--valkoinen);
+  padding: 18px 24px;
+  display: flex; align-items: center; gap: 16px;
+}
+.tehtava-numero { font-size: 26px; font-weight: 700; color: var(--turkoosi); padding-right: 16px; border-right: 1px solid rgba(175,221,229,.25); }
+.tehtava-tunnus { flex: 1; min-width: 0; }
+.tehtava-tunnus small { display: block; font-size: 10.5px; letter-spacing: .14em; color: var(--jaa); opacity: .8; }
+.tehtava-tunnus span { font-weight: 600; }
+.merkki { font-size: 12px; font-weight: 600; padding: 3px 11px; border-radius: 999px; white-space: nowrap; }
+.merkki.pisteet { background: var(--tiili); color: var(--valkoinen); }
+.merkki.lahde { border: 1px solid rgba(175,221,229,.45); color: var(--jaa); }
+
+.tehtava-teksti { padding: 22px 24px 8px; font-size: 15px; }
+.tehtava-teksti p { margin: 0 0 14px; }
+
+/* Aikajana (esim. maksuaikataulu) */
+.aikajana { margin: 8px 24px 24px; background: var(--jaa-pehmea); border-radius: 14px; padding: 16px 18px 18px; }
+.aikajana h4, .pieni-otsikko { margin: 0 0 14px; font-size: 11px; letter-spacing: .14em; color: var(--petrooli); font-weight: 700; }
+.aikajana-rivi { display: flex; justify-content: space-between; position: relative; }
+.aikajana-rivi::before { content: ""; position: absolute; left: 12%; right: 12%; top: 7px; height: 2px; background: var(--jaa); }
+.aikajana-kohta { flex: 1; text-align: center; position: relative; font-size: 13px; }
+.aikajana-kohta .piste { width: 16px; height: 16px; border-radius: 50%; background: var(--valkoinen); border: 4px solid var(--syva); margin: 0 auto 8px; position: relative; }
+.aikajana-kohta.turkoosi .piste { border-color: var(--turkoosi); }
+.aikajana-kohta.tiili .piste { border-color: var(--tiili); }
+.aikajana-kohta b { display: block; }
+.aikajana-kohta .selite { color: var(--teksti-hento); font-size: 12px; }
+.aikajana-kohta .arvo { font-weight: 700; font-size: 15px; }
+.aikajana-kohta.turkoosi .arvo { color: var(--petrooli); }
+.aikajana-kohta.tiili .arvo { color: var(--tiili); }
+
+/* ---------- Vastauslaatikko ---------- */
+.vastaus { padding: 22px 24px 24px; }
+.vastaus-otsake { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 14px; }
+.vastaus-otsake h3 { margin: 0; font-size: 17px; }
+.tallennettu { font-size: 12px; color: var(--teksti-hento); }
+.kentan-otsikko { display: block; font-size: 13px; font-weight: 600; margin: 0 0 6px; }
+
+/* ---------- Kaavaeditori (ratkaisulaatikko) ---------- */
+.ratkaisu-alue { border: 1px solid var(--reuna); border-radius: 12px; margin-bottom: 18px; position: relative; }
+.ratkaisu-alue:focus-within { border-color: var(--turkoosi); box-shadow: 0 0 0 3px var(--jaa-pehmea); }
+.kaava-tyokalut {
+  display: flex; gap: 2px; padding: 6px 8px; flex-wrap: wrap; align-items: center;
+  border-bottom: 1px solid var(--reuna); background: var(--tausta); border-radius: 12px 12px 0 0;
+}
+.kaava-tyokalut button {
+  min-width: 32px; height: 30px; border: none; border-radius: 7px; background: none;
+  font: inherit; font-size: 15px; color: var(--syva); cursor: pointer; padding: 0 6px;
+}
+.kaava-tyokalut button:hover { background: var(--jaa); }
+.kaava-tyokalut .uusi-kaava { background: var(--syva); color: var(--valkoinen); font-weight: 600; font-size: 13.5px; margin-right: 6px; }
+.kaava-tyokalut .uusi-kaava:hover { background: var(--petrooli); }
+.kaava-tyokalut .uusi-kaava kbd { background: rgba(175,221,229,.2); color: var(--jaa); border: none; }
+.kaava-tyokalut .ohje-nappi { margin-left: auto; font-weight: 700; border: 1.5px solid var(--reuna); border-radius: 50%; width: 30px; min-width: 30px; padding: 0; }
+kbd {
+  font-family: var(--fontti-koodi); font-size: 11.5px;
+  background: var(--valkoinen); border: 1px solid var(--reuna); border-bottom-width: 2px;
+  border-radius: 5px; padding: 1px 5px;
+}
+.kaava-ohje { padding: 12px 14px; border-bottom: 1px solid var(--reuna); background: var(--valkoinen); font-size: 13px; }
+.kaava-ohje[hidden] { display: none; }
+.kaava-ohje table { border-collapse: collapse; width: 100%; }
+.kaava-ohje th { text-align: left; color: var(--petrooli); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; padding: 10px 0 4px; }
+.kaava-ohje td { padding: 4px 10px 4px 0; vertical-align: top; border-bottom: 1px solid var(--tausta); }
+.kaava-ohje td:first-child { white-space: nowrap; width: 1%; }
+.kaava-ohje code { font-size: 12px; line-height: 1.8; }
+
+.kaava-teksti {
+  min-height: 140px; padding: 12px 14px; font-size: 15px; line-height: 1.9;
+  white-space: pre-wrap; word-wrap: break-word; outline: none; cursor: text;
+}
+.kaava-teksti:empty::before { content: attr(data-placeholder); color: var(--teksti-hento); pointer-events: none; }
+.kaava-pala {
+  display: inline-block; padding: 0 3px; margin: 0 1px; border-radius: 5px;
+  cursor: pointer; vertical-align: middle; line-height: 1.4;
+}
+.kaava-pala:hover { background: var(--jaa-pehmea); }
+.kaava-pala.muokattava { background: var(--jaa-pehmea); outline: 2px solid var(--turkoosi); }
+.kaava-pala.tyhja { color: var(--teksti-hento); }
+.kaava-pala .katex { font-size: 1.08em; }
+
+.kaava-paneeli {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  padding: 8px 12px; border-top: 1px solid var(--reuna); background: var(--syva); border-radius: 0 0 12px 12px;
+}
+.kaava-paneeli[hidden] { display: none; }
+.kaava-paneeli label { color: var(--jaa); font-size: 11px; font-weight: 700; letter-spacing: .12em; }
+.kaava-syote {
+  flex: 1; min-width: 200px; border: none; border-radius: 8px; padding: 8px 10px;
+  font-family: var(--fontti-koodi); font-size: 14.5px; color: var(--syva);
+}
+.kaava-syote:focus { outline: 2px solid var(--turkoosi); }
+.kaava-vihje { color: var(--jaa); font-size: 12px; }
+
+.lopullinen { display: flex; gap: 12px; align-items: stretch; flex-wrap: wrap; }
+.syote-kehys {
+  flex: 1; min-width: 200px;
+  display: flex; align-items: center;
+  border: 1.5px solid var(--reuna); border-radius: 12px; padding: 0 14px;
+}
+.syote-kehys:focus-within { border-color: var(--turkoosi); box-shadow: 0 0 0 3px var(--jaa-pehmea); }
+.syote-kehys input { flex: 1; border: none; font: inherit; font-size: 16px; padding: 12px 0; color: var(--syva); min-width: 0; }
+.syote-kehys input:focus { outline: none; }
+.syote-kehys .yksikko { color: var(--teksti-hento); font-weight: 600; }
+
+.vaihtoehdot { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.vaihtoehto {
+  display: flex; gap: 10px; align-items: center;
+  border: 1.5px solid var(--reuna); border-radius: 12px; padding: 11px 14px; cursor: pointer;
+}
+.vaihtoehto:hover { background: var(--jaa-pehmea); }
+.vaihtoehto:has(input:checked) { border-color: var(--turkoosi); background: var(--jaa-pehmea); }
+.vaihtoehto input { accent-color: var(--petrooli); }
+
+.nappi {
+  border: none; border-radius: 12px; cursor: pointer;
+  background: var(--syva); color: var(--valkoinen);
+  font: inherit; font-weight: 600; font-size: 15px;
+  padding: 12px 22px;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.nappi:hover { background: var(--petrooli); }
+.nappi:focus-visible { outline: 3px solid var(--turkoosi); outline-offset: 2px; }
+.nappi.toissijainen { background: var(--valkoinen); color: var(--syva); border: 1.5px solid var(--reuna); }
+.nappi.toissijainen:hover { background: var(--jaa-pehmea); }
+.nappi:disabled { opacity: .45; cursor: default; }
+.virheviesti { color: var(--tiili); font-size: 13px; margin: 8px 0 0; min-height: 1em; }
+
+/* ---------- Tulokset ---------- */
+.tulokset-piilossa {
+  border: 2px dashed var(--jaa);
+  border-radius: var(--pyoristys);
+  padding: 34px 24px;
+  text-align: center;
+  background: var(--valkoinen);
+}
+.lukko { width: 44px; height: 44px; border-radius: 50%; background: var(--syva); color: var(--valkoinen); display: grid; place-items: center; margin: 0 auto 10px; }
+.lukko svg { width: 20px; height: 20px; }
+.tulokset-piilossa b { display: block; color: var(--petrooli); }
+.tulokset-piilossa p { margin: 4px 0 0; font-size: 13px; color: var(--teksti-hento); }
+
+.tulokset { padding: 22px 24px 24px; }
+.tulos-banneri {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 16px; border-radius: 14px; margin-bottom: 18px;
+}
+/* Tulosten tilat: vihreä = oikein, keltainen = osittain / kesken, punainen = väärin */
+.tulos-banneri.oikein   { background: var(--vihrea-tausta);   border-left: 5px solid var(--vihrea); }
+.tulos-banneri.osittain,
+.tulos-banneri.kesken   { background: var(--keltainen-tausta); border-left: 5px solid var(--keltainen); }
+.tulos-banneri.vaarin   { background: var(--punainen-tausta);  border-left: 5px solid var(--punainen); }
+.tila-merkki {
+  width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
+  display: grid; place-items: center; font-size: 20px; font-weight: 700; line-height: 1;
+}
+.oikein .tila-merkki   { background: var(--vihrea); color: var(--valkoinen); }
+.osittain .tila-merkki,
+.kesken .tila-merkki   { background: var(--keltainen); color: var(--syva); }
+.vaarin .tila-merkki   { background: var(--punainen); color: var(--valkoinen); }
+.tulokset.tila-oikein   { box-shadow: var(--varjo), inset 0 0 0 2px var(--vihrea); }
+.tulokset.tila-osittain,
+.tulokset.tila-kesken   { box-shadow: var(--varjo), inset 0 0 0 2px var(--keltainen); }
+.tulokset.tila-vaarin   { box-shadow: var(--varjo), inset 0 0 0 2px var(--punainen); }
+.tulos-banneri .otsikko { font-weight: 700; font-size: 17px; }
+.tulos-banneri .pisteet-iso { margin-left: auto; font-size: 22px; font-weight: 700; }
+.vertailu { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px; }
+.vertailu div { background: var(--tausta); border-radius: 12px; padding: 12px 14px; }
+.vertailu small { display: block; font-size: 12px; color: var(--teksti-hento); }
+.vertailu b { font-size: 17px; }
+.mallivastaus ol { margin: 0; padding-left: 20px; }
+.mallivastaus li { margin-bottom: 8px; }
+.tulos-napit { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+
+/* Tehtävästä toiseen siirtyminen */
+.navigointi { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.navigointi select {
+  font: inherit; font-size: 14px; color: var(--syva);
+  border: 1.5px solid var(--reuna); border-radius: 10px; padding: 8px 10px; background: var(--valkoinen);
+  max-width: 100%;
+}
+
+/* ---------- Muistilista (oikea sarake) ---------- */
+.muistilista { background: var(--petrooli); color: var(--jaa); padding: 20px; border-radius: var(--pyoristys); }
+.muistilista-otsake { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; }
+.muistilista-otsake .ikoni { width: 38px; height: 38px; border-radius: 10px; background: rgba(175,221,229,.12); color: var(--turkoosi); display: grid; place-items: center; flex-shrink: 0; }
+.muistilista-otsake .ikoni svg { width: 19px; height: 19px; }
+.muistilista-otsake small { display: block; font-size: 10.5px; letter-spacing: .14em; opacity: .75; }
+.muistilista-otsake b { color: var(--valkoinen); font-size: 16px; }
+.muistilista h5 { margin: 16px 0 4px; color: var(--valkoinen); font-size: 13.5px; }
+.muistilista p { margin: 0; font-size: 13.5px; }
+.muistilista p b { color: var(--valkoinen); }
+.kaava {
+  margin-top: 8px; background: var(--syva); color: var(--valkoinen);
+  border-radius: 10px; padding: 8px 12px; font-size: 14px; text-align: center;
+  font-family: "Cambria Math", "Times New Roman", serif;
+}
+
+.virhe-kortti { background: var(--valkoinen); border: 1.5px solid rgba(150,71,52,.35); border-radius: var(--pyoristys); padding: 16px 18px; }
+.virhe-kortti h5 { margin: 0 0 6px; color: var(--tiili); font-size: 12px; letter-spacing: .1em; display: flex; gap: 6px; align-items: center; }
+.virhe-kortti p { margin: 0; font-size: 13.5px; }
+
+.taulukko-kortti { background: var(--jaa); border-radius: var(--pyoristys); padding: 16px 18px; font-size: 13.5px; }
+.taulukko-kortti .pieni-otsikko { margin-bottom: 6px; }
+.taulukko-kortti p { margin: 0; }
+
+/* ---------- Etusivu ---------- */
+.etusivu { max-width: 980px; }
+.etusivu h1 { font-size: 32px; margin: 4px 0 6px; }
+.etusivu > p { color: var(--teksti-hento); margin: 0 0 24px; max-width: 620px; }
+.aine-ruudukko { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 16px; }
+.aine-kortti {
+  background: var(--valkoinen); border-radius: var(--pyoristys); box-shadow: var(--varjo);
+  padding: 18px; text-decoration: none; color: var(--syva);
+  display: flex; flex-direction: column; gap: 10px; border: 1.5px solid transparent;
+}
+.aine-kortti:hover { border-color: var(--turkoosi); }
+.aine-kortti .ikoni { width: 44px; height: 44px; border-radius: 12px; background: var(--syva); color: var(--turkoosi); display: grid; place-items: center; }
+.aine-kortti .ikoni svg { width: 22px; height: 22px; }
+.aine-kortti b { font-size: 16px; }
+.aine-kortti small { color: var(--teksti-hento); }
+.edistyspalkki { height: 6px; background: var(--jaa-pehmea); border-radius: 99px; overflow: hidden; }
+.edistyspalkki span { display: block; height: 100%; background: var(--turkoosi); border-radius: 99px; }
+
+/* ---------- Edistys-sivu ---------- */
+.edistys { max-width: 1100px; display: flex; flex-direction: column; gap: 20px; }
+.edistys h1 { margin: 0; font-size: 26px; }
+.edistys-ylarivi { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.suodatin { display: flex; gap: 8px; flex-wrap: wrap; }
+.suodatin select, .suodatin button {
+  font: inherit; font-size: 14px; color: var(--syva);
+  border: 1.5px solid var(--reuna); border-radius: 10px; padding: 7px 12px; background: var(--valkoinen); cursor: pointer;
+}
+.suodatin button.valittu { background: var(--syva); color: var(--valkoinen); border-color: var(--syva); }
+
+.tunnusluvut { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.tunnusluku { background: var(--valkoinen); border-radius: var(--pyoristys); box-shadow: var(--varjo); padding: 16px 18px; }
+.tunnusluku small { display: block; font-size: 12.5px; color: var(--teksti-hento); }
+.tunnusluku b { font-size: 28px; font-weight: 700; }
+
+.kaavio-kortti { padding: 20px 22px; }
+.kaavio-kortti h3 { margin: 0; font-size: 16px; }
+.kaavio-kortti .kuvaus { margin: 2px 0 12px; font-size: 13px; color: var(--teksti-hento); }
+.kaavio-kehys { position: relative; }
+.kaavio-kehys svg { width: 100%; height: auto; display: block; overflow: visible; }
+.kaavio-tyhja { padding: 40px 0; text-align: center; color: var(--teksti-hento); }
+.vihje {
+  position: absolute; pointer-events: none; z-index: 5;
+  background: var(--syva); color: var(--valkoinen);
+  border-radius: 10px; padding: 8px 11px; font-size: 13px; white-space: nowrap;
+  transform: translate(-50%, calc(-100% - 12px));
+}
+.vihje small { display: block; color: var(--jaa); font-size: 11.5px; }
+details.taulukkona { margin-top: 12px; font-size: 13px; }
+details.taulukkona summary { cursor: pointer; color: var(--petrooli); font-weight: 600; }
+details.taulukkona table { border-collapse: collapse; margin-top: 8px; width: 100%; }
+details.taulukkona td, details.taulukkona th { padding: 4px 8px; border-bottom: 1px solid var(--reuna); text-align: left; }
+
+.aine-tilastot { display: flex; flex-direction: column; gap: 14px; }
+.aine-tilasto { display: grid; grid-template-columns: 290px 1fr 120px; align-items: center; gap: 14px; font-size: 14px; }
+.aine-tilasto .palkki { height: 10px; background: var(--jaa-pehmea); border-radius: 99px; overflow: hidden; }
+.aine-tilasto .palkki span { display: block; height: 100%; background: var(--turkoosi); border-radius: 99px; }
+.aine-tilasto .luku { text-align: right; color: var(--teksti-hento); }
+
+.aine-tilasto a { color: var(--syva); text-decoration: none; }
+.aine-tilasto a:hover { text-decoration: underline; }
+.murupolku a { color: var(--teksti-hento); text-decoration: none; }
+.murupolku a:hover { color: var(--syva); text-decoration: underline; }
+
+/* ---------- Kurssien yleisnäkymä (pitkä matematiikka) ---------- */
+.kurssit { max-width: 1180px; display: flex; flex-direction: column; gap: 20px; }
+.kurssit h1 { margin: 0; font-size: 26px; }
+.kurssit .alaotsikko { margin: 2px 0 0; color: var(--teksti-hento); font-size: 14px; }
+.kurssit .nappi { text-decoration: none; }
+.kurssi-ryhma { margin: 10px 0 -4px; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--petrooli); }
+.kurssi-ruudukko { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+
+.kurssi-kortti {
+  background: var(--valkoinen); border-radius: var(--pyoristys); box-shadow: var(--varjo);
+  display: flex; flex-direction: column; border: 1.5px solid transparent; overflow: hidden;
+}
+.kurssi-kortti:hover { border-color: var(--turkoosi); }
+.kurssi-linkki { padding: 18px 18px 12px; text-decoration: none; color: var(--syva); flex: 1; display: flex; flex-direction: column; gap: 6px; }
+.kurssi-linkki b { font-size: 16px; }
+.kurssi-linkki p { margin: 0; font-size: 13px; color: var(--teksti-hento); }
+.kurssi-ylarivi { display: flex; justify-content: space-between; align-items: center; }
+.kurssi-koodi { background: var(--syva); color: var(--valkoinen); font-weight: 700; font-size: 12.5px; padding: 3px 10px; border-radius: 8px; letter-spacing: .04em; }
+.kurssi-valmis { font-size: 12px; font-weight: 600; color: var(--petrooli); }
+.kurssi-tila { padding: 0 18px 16px; }
+
+/* Kaksi kerrosta samassa palkissa: vaalea = yritetty, turkoosi = ratkaistu */
+.kaksoispalkki { position: relative; height: 8px; background: var(--jaa-pehmea); border-radius: 99px; overflow: hidden; }
+.kaksoispalkki span { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 99px; }
+.kaksoispalkki .tehty { background: var(--jaa); }
+.kaksoispalkki .ratkaistu { background: var(--turkoosi); }
+.kurssi-luvut { display: flex; gap: 14px; margin-top: 8px; font-size: 12.5px; color: var(--teksti-hento); align-items: baseline; }
+.kurssi-luvut b { color: var(--syva); font-size: 14px; }
+.kurssi-luvut a { margin-left: auto; color: var(--petrooli); font-weight: 600; text-decoration: none; }
+.kurssi-luvut a:hover { text-decoration: underline; }
+
+.selite-rivi { display: flex; gap: 18px; font-size: 12.5px; color: var(--teksti-hento); }
+.selite-rivi span { display: flex; align-items: center; gap: 6px; }
+.selite-pala { width: 14px; height: 8px; border-radius: 99px; display: inline-block; }
+.selite-pala.ratkaistu { background: var(--turkoosi); }
+.selite-pala.tehty { background: var(--jaa); }
+
+.tehtava-teksti code { font-family: var(--fontti-koodi); background: var(--tausta); padding: 8px 12px; border-radius: 8px; display: inline-block; font-size: 14px; }
+
+.ilmoitus { background: var(--valkoinen); border-left: 5px solid var(--tiili); padding: 16px 20px; border-radius: 12px; box-shadow: var(--varjo); max-width: 700px; }
+.ilmoitus code { background: var(--tausta); padding: 1px 6px; border-radius: 5px; }
+
+/* ---------- Pienet näytöt ---------- */
+@media (max-width: 1000px) {
+  .ruudukko { grid-template-columns: minmax(0, 1fr); }
+  .tunnusluvut { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .sisalto { padding: 16px; }
+  .sivupalkki { width: 68px; }
+  .aine-linkki { width: 60px; }
+  .aine-tilasto { grid-template-columns: 1fr; gap: 4px; }
+  .vertailu { grid-template-columns: 1fr; }
+}

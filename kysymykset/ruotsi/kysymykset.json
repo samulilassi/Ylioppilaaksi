@@ -1,0 +1,56 @@
+{
+  "aine": "ruotsi",
+  "kysymykset": [
+    {
+      "id": "ruo-harj-imperfekti-1",
+      "numero": "1",
+      "aihe": "Kielioppi · Verbien aikamuodot",
+      "osaAlue": "Kielioppi",
+      "pisteet": 1,
+      "muistilista": "verbit",
+      "teksti": [
+        "Valitse lauseeseen sopiva verbimuoto:",
+        "<b>Jag ______ till Stockholm i går.</b>"
+      ],
+      "vastaus": { "tyyppi": "valinta", "vaihtoehdot": ["åker", "åkte", "har åkt", "ska åka"], "oikea": 1 },
+      "ratkaisu": [
+        "<i>I går</i> (eilen) on tarkka mennyt ajankohta, joten käytetään <b>imperfektiä</b>.",
+        "åka – <b>åkte</b> – åkt → \"Jag åkte till Stockholm i går.\""
+      ]
+    },
+    {
+      "id": "ruo-harj-monikko-1",
+      "numero": "2",
+      "aihe": "Kielioppi · Substantiivin monikko",
+      "osaAlue": "Kielioppi",
+      "pisteet": 1,
+      "muistilista": "substantiivit",
+      "teksti": [
+        "Kirjoita sanan <b>en bok</b> (kirja) epämääräinen monikkomuoto.",
+        "<i>Jag har många ______.</i>"
+      ],
+      "vastaus": { "tyyppi": "teksti", "hyvaksytyt": ["böcker"], "esimerkki": "bilar" },
+      "ratkaisu": [
+        "<i>Bok</i> kuuluu 3. taivutusluokkaan, jossa vokaali muuttuu: o → ö ja pääte on -er.",
+        "en bok – boken – <b>böcker</b> – böckerna."
+      ]
+    },
+    {
+      "id": "ruo-harj-sanasto-1",
+      "numero": "3",
+      "aihe": "Sanasto · Pienet sanat",
+      "osaAlue": "Sanasto",
+      "pisteet": 1,
+      "muistilista": "sanasto",
+      "teksti": [
+        "<b>Mitä sana \"ändå\" tarkoittaa?</b>",
+        "<i>Det regnade, men vi gick ut ändå.</i>"
+      ],
+      "vastaus": { "tyyppi": "valinta", "vaihtoehdot": ["myös", "sitten", "silti", "ehkä"], "oikea": 2 },
+      "ratkaisu": [
+        "<i>Ändå</i> = <b>silti, kuitenkin</b>.",
+        "\"Satoi, mutta menimme silti ulos.\""
+      ]
+    }
+  ]
+}
